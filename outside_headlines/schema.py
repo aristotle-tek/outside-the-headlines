@@ -78,6 +78,7 @@ def copy_claims(unit) -> list[str]:
 class Claim(PublicModel):
     text: str = Field(min_length=1)
     evidence: list[Evidence] = Field(min_length=1)
+    currency_indexes: list[int] = Field(default_factory=list)
 
 
 class Member(PublicModel):
@@ -143,6 +144,12 @@ class Unit(PublicModel):
         urls = {s.url for s in self.sources}
         if any(e.source_url not in urls for c in self.claims for e in c.evidence):
             raise ValueError("Claim evidence must refer to a listed source")
+        for claim in self.claims:
+            if any(index < 0 or index >= len(self.currencies) for index in claim.currency_indexes):
+                raise ValueError("Claim refers to an unknown frozen currency record")
+            expected = {index for index, currency in enumerate(self.currencies) if currency.usd_text() in claim.text}
+            if expected - set(claim.currency_indexes):
+                raise ValueError("Dollar equivalents must map to their frozen currency records")
         mapped = {c.text.strip() for c in self.claims}
         if any(sentence not in mapped for sentence in copy_claims(self)):
             raise ValueError("Every reader sentence and headline needs an exact claim-to-source mapping")

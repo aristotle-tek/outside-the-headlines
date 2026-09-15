@@ -159,3 +159,16 @@ def test_every_reader_sentence_and_excerpt_rights_required():
         Unit.model_validate(data)
     with pytest.raises(ValidationError, match="permission"):
         Evidence(source_url="https://www.uspto.gov/", passage="Test locator", excerpt="Unpermitted text")
+
+
+def test_dollar_equivalent_requires_frozen_rate_mapping():
+    data = test_input().units[0].model_dump(mode="json")
+    data["summary"] = "The amount is about US$12 million."
+    data["claims"][1]["text"] = data["summary"]
+    data["currencies"] = [{"currency": "NGN", "local_name": "naira", "local_amount": "18000000000",
+        "local_per_usd": "1500", "rate_date": "2026-09-14", "source_name": "CBN",
+        "source_url": "https://www.cbn.gov.ng/"}]
+    with pytest.raises(ValidationError, match="frozen currency"):
+        Unit.model_validate(data)
+    data["claims"][1]["currency_indexes"] = [0]
+    Unit.model_validate(data)
