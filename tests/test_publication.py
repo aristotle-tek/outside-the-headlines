@@ -47,7 +47,7 @@ def write(root, release):
     (root / "releases" / f"{release.slug}-r{release.revision_number}.json").write_text(release.model_dump_json())
 
 
-@pytest.mark.parametrize("url", ["javascript:alert(1)", "http://127.0.0.1/", "http://169.254.169.254/", "https://localhost/", "https://secret@example.org/", "https://server.internal/", "https://host.test/", "https://example.org:9000/", "https://news.example.com/story"])
+@pytest.mark.parametrize("url", ["javascript:alert(1)", "http://127.0.0.1/", "http://169.254.169.254/", "https://localhost/", "https://secret@example.org/", "https://server.internal/", "https://host.test/", "https://example.org:9000/", "https://news.example.com/story", "https://www.uspto.gov/?access_token=private"])
 def test_unsafe_links(url):
     with pytest.raises(ValueError):
         public_url(url)

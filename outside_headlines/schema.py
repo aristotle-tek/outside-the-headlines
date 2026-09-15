@@ -7,7 +7,7 @@ import re
 from datetime import date, datetime
 from decimal import Decimal, ROUND_HALF_UP
 from typing import Literal
-from urllib.parse import urlsplit
+from urllib.parse import parse_qsl, urlsplit
 
 from pydantic import BaseModel, ConfigDict, Field, field_validator, model_validator
 
@@ -36,6 +36,9 @@ def public_url(value: str) -> str:
             raise ValueError("Non-public IP target")
     if any(ord(c) < 32 for c in value) or "\\" in value:
         raise ValueError("Malformed URL")
+    sensitive = {"token", "access_token", "api_key", "apikey", "password", "authorization", "signature", "x-amz-signature"}
+    if any(key.casefold() in sensitive for key, _ in parse_qsl(p.query)):
+        raise ValueError("Credential-bearing source URLs cannot be published")
     return value
 
 
@@ -198,6 +201,9 @@ class Release(PublicModel):
         copy = " ".join([self.title, self.opener] + [" ".join(copy_claims(u)) for u in self.units])
         if re.search(r"DEMO-|EDITOR MUST|Location pending|\bEUR\b|€|\bplaceholder\b", copy, re.I):
             raise ValueError("Unfinished, demo or EUR copy cannot be released")
+        serialised = self.model_dump_json()
+        if re.search(r"sk-[A-Za-z0-9_-]{20,}|gh[pousr]_[A-Za-z0-9]{20,}|BEGIN [A-Z ]*PRIVATE KEY", serialised):
+            raise ValueError("Possible credential in release content")
         if any(c.rate_date > self.edition_date for u in self.units for c in u.currencies):
             raise ValueError("FX rate cannot postdate the edition")
         if self.calculated_hash() != self.content_hash:

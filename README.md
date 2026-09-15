@@ -44,7 +44,7 @@ stable issue URL renders the latest revision; RSS retains its original GUID and
 publication timestamp. Substantive updates to an existing proposition need a
 follow-up reason.
 
-For a broken site deployment, run `vercel rollback` from this linked checkout,
+For a broken site deployment, run `vercel rollback DEPLOYMENT_URL --scope smiling-quokka` from this linked checkout,
 then fix the code and push. Do not use rollback to conceal a factual correction.
 To undo a code commit, prefer `git revert COMMIT` followed by a push.
 
@@ -53,6 +53,21 @@ To undo a code commit, prefer `git revert COMMIT` followed by a push.
 Project and repository: `outside-the-headlines`. Vercel team: `smiling-quokka`.
 Framework preset: Other. Commands and output directory are in `vercel.json`.
 The build uses an isolated virtual environment, not Vercel’s managed system Python.
+Production hostname: [outside-the-headlines.vercel.app](https://outside-the-headlines.vercel.app).
+
+Initial status: the empty publication shell is live; no article issue has been
+released. Native Git deployment requires the account owner to install the official
+[Vercel GitHub app](https://github.com/apps/vercel/installations/new) with **only**
+this repository selected. Then connect it from this checkout:
+
+```sh
+vercel git connect https://github.com/aristotle-tek/outside-the-headlines --scope smiling-quokka
+```
+
+Confirm `main` as the production branch in Vercel, then push a harmless documentation
+commit and verify that its SHA appears on a successful new Git deployment. Until
+that has been observed, automatic deployment on push is not considered verified.
+Manual deployment of already approved public inputs uses `vercel deploy --prod --scope smiling-quokka`.
 No domain purchase is part of this setup. Email and subscriber storage are deferred;
 RSS is available immediately. A future email service can use listmonk plus SMTP.
 
