@@ -1,0 +1,2 @@
+{% extends 'base.html' %}
+{% block content %}{% include 'issue_body.html' %}<nav class="reading pagination" aria-label="Issue navigation"><span>{% if newer %}<a href="{{ newer.path }}">← Newer: No. {{ newer.issue_number }}</a>{% endif %}</span><span>{% if older %}<a href="{{ older.path }}">Older: No. {{ older.issue_number }} →</a>{% endif %}</span></nav>{% endblock %}

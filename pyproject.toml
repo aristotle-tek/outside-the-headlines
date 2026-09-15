@@ -1,0 +1,16 @@
+[project]
+name = "outside-the-headlines"
+version = "0.1.0"
+description = "A static, source-linked edition website"
+requires-python = ">=3.12"
+dependencies = ["jinja2==3.1.6", "pydantic==2.13.5"]
+
+[build-system]
+requires = ["setuptools==82.0.1"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["outside_headlines"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

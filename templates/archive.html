@@ -1,0 +1,2 @@
+{% extends 'base.html' %}
+{% block content %}<div class="reading"><h1 class="edition-title">The archive</h1>{% if releases %}<ol class="archive-list">{% for issue in releases %}<li><div class="folio">{{ issue.edition_date.strftime('%d %B %Y') }} · No. {{ issue.issue_number }} · {{ issue.core_updates }} updates</div><h2><a href="{{ issue.path }}">{{ issue.title }}</a></h2><p>{{ issue.opener }}</p></li>{% endfor %}</ol>{% else %}<p class="prose">The first edition is forthcoming.</p>{% endif %}</div>{% endblock %}
