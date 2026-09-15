@@ -4,7 +4,7 @@ Insights from the long tail.
 
 A small static edition website. This repository contains only public site code
 and explicitly approved releases. The editorial newsroom and its database are
-separate and private. The first edition is forthcoming until it has human sign-off.
+separate and private. [Edition 1, dated 14 September 2026](https://outside-the-headlines.vercel.app/issues/2026-09-14-1/), is the first approved release. This editorial experiment does not establish that the pilot or reader-validation goals have been achieved.
 
 ## Build
 
@@ -24,17 +24,22 @@ Only `dist/` is served. The site has no runtime API or application tracking.
 
 ## Publish an edition
 
-1. Edit, source-check and approve the edition in the private newsroom.
-2. Freeze an immutable revision with its matching human review attestation.
+1. Prepare sourced copy privately, then explicitly approve the edition as an editorial decision in the newsroom. The editor is not asked to audit every source sentence personally.
+2. Freeze an immutable revision with its matching named, content-checksum editorial approval. Provenance, schema and recorded failed-check gates remain; changes require renewed approval.
 3. In the newsroom, run `back-pages export-publication REVISION_ID --repo-dir publication`.
 4. Build this checkout and inspect its HTML, sources, currency annotations and RSS.
 5. Explicitly commit the approved release inputs and push to `main`.
 
-Once the Vercel GitHub app is installed for this repository and connected, its
-native Git integration deploys `main` to production and other branches to previews.
+This repository is connected to Vercel's native Git integration, with `main`
+configured as the production branch and other branches receiving previews.
 Previews are non-indexable, but this Git repository is public:
 never commit drafts, credentials, newsroom notes, or unapproved article copy.
 The export command never commits, pushes, deploys or sends email.
+
+Reader copy uses no em dashes. Visible source lines contain the original reporting
+headline, outlet and date. Full author credits and supporting documents are inside
+the closed evidence disclosure. Sources can carry `display: "evidence_only"` for
+that purpose; the default `reporting` hint preserves legacy release checksums.
 
 ## Corrections and rollback
 
@@ -55,18 +60,19 @@ Framework preset: Other. Commands and output directory are in `vercel.json`.
 The build uses an isolated virtual environment, not Vercel’s managed system Python.
 Production hostname: [outside-the-headlines.vercel.app](https://outside-the-headlines.vercel.app).
 
-Initial status: the empty publication shell is live; no article issue has been
-released. Native Git deployment requires the account owner to install the official
+The approved first edition is included as an immutable release input. The official
+Vercel Git connection selects this publication repository, not the private newsroom.
+If the connection is removed, install the official
 [Vercel GitHub app](https://github.com/apps/vercel/installations/new) with **only**
-this repository selected. Then connect it from this checkout:
+this repository selected, then reconnect from this checkout:
 
 ```sh
 vercel git connect https://github.com/aristotle-tek/outside-the-headlines --scope smiling-quokka
 ```
 
-Confirm `main` as the production branch in Vercel, then push a harmless documentation
-commit and verify that its SHA appears on a successful new Git deployment. Until
-that has been observed, automatic deployment on push is not considered verified.
+To verify a changed connection, confirm `main` as the production branch, push a
+harmless documentation commit and check that its SHA appears on a successful new
+Git deployment. Connection settings alone are not evidence of automatic deployment.
 Manual deployment of already approved public inputs uses `vercel deploy --prod --scope smiling-quokka`.
 No domain purchase is part of this setup. Email and subscriber storage are deferred;
 RSS is available immediately. A future email service can use listmonk plus SMTP.

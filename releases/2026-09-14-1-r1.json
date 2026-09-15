@@ -1,0 +1,1297 @@
+{
+  "schema_version": 1,
+  "edition_date": "2026-09-14",
+  "issue_number": 1,
+  "published_at": "2026-09-15T14:07:10.941985Z",
+  "revision_number": 1,
+  "content_hash": "90c4a14dc155926eba26c1f53d251ce7ca804c428b2c0aa4645806c220b66169",
+  "title": "Edition 1 · 14 September 2026",
+  "opener": "Eight stories, from overdue debts to the local costs of AI.",
+  "units": [
+    {
+      "type": "dispatch",
+      "headline": "Invaders remain in Ituna-Itatá despite an order to deploy federal forces",
+      "countries": [
+        "Brazil"
+      ],
+      "topics": [
+        "Indigenous land"
+      ],
+      "thesis": "",
+      "summary": "Brazilian federal prosecutors say more than 500 people are occupying the Ituna-Itatá Indigenous territory in Pará, opening roads and clearing land with fire. The territory protects isolated Indigenous people. A court ordered federal forces to be deployed within 48 hours on August 26; prosecutors said on September 11 that they had still not arrived. Pará has created an overlapping environmental protection area whose rules permit private housing and livestock farming. Prosecutors say land-grabbers invoke those rules to justify occupation. The federal government has argued that deployment requires state authorisation; prosecutors say federal forces can operate on federal land without it.",
+      "perspective": "Land-grabbers can exploit conflicting protections while changing the land itself. In Ituna-Itatá, occupiers invoke state rules permitting housing and ranching on territory protected for isolated Indigenous people. Roads and clearing proceed while federal enforcement is delayed.",
+      "analogy_weakness": "",
+      "counterexample": "",
+      "members": [
+        {
+          "proposition": "More than 500 people occupied protected Ituna/Itatá Indigenous land while a federal order to deploy security forces remained unfulfilled.",
+          "countries": [
+            "Brazil"
+          ],
+          "role": "primary",
+          "contribution": "",
+          "limitation": "",
+          "follow_up_reason": ""
+        }
+      ],
+      "claims": [
+        {
+          "text": "Invaders remain in Ituna-Itatá despite an order to deploy federal forces",
+          "evidence": [
+            {
+              "source_url": "https://news.mongabay.com/short-article/2026/09/ituna-itata-invasion-escalates-as-indigenous-land-faces-fires-and-illegal-clearing/",
+              "passage": "Lead and deployment paragraphs: August 26 order, 48-hour deadline, non-arrival reported September 11",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Brazilian federal prosecutors say more than 500 people are occupying the Ituna-Itatá Indigenous territory in Pará, opening roads and clearing land with fire.",
+          "evidence": [
+            {
+              "source_url": "https://news.mongabay.com/short-article/2026/09/ituna-itata-invasion-escalates-as-indigenous-land-faces-fires-and-illegal-clearing/",
+              "passage": "Lead and deployment paragraphs: August 26 order, 48-hour deadline, non-arrival reported September 11",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "The territory protects isolated Indigenous people.",
+          "evidence": [
+            {
+              "source_url": "https://news.mongabay.com/short-article/2026/09/ituna-itata-invasion-escalates-as-indigenous-land-faces-fires-and-illegal-clearing/",
+              "passage": "Lead and deployment paragraphs: August 26 order, 48-hour deadline, non-arrival reported September 11",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "A court ordered federal forces to be deployed within 48 hours on August 26; prosecutors said on September 11 that they had still not arrived.",
+          "evidence": [
+            {
+              "source_url": "https://news.mongabay.com/short-article/2026/09/ituna-itata-invasion-escalates-as-indigenous-land-faces-fires-and-illegal-clearing/",
+              "passage": "Lead and deployment paragraphs: August 26 order, 48-hour deadline, non-arrival reported September 11",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Pará has created an overlapping environmental protection area whose rules permit private housing and livestock farming.",
+          "evidence": [
+            {
+              "source_url": "https://news.mongabay.com/short-article/2026/09/ituna-itata-invasion-escalates-as-indigenous-land-faces-fires-and-illegal-clearing/",
+              "passage": "APA Bacajaí paragraph: overlap and permitted private housing and livestock farming",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Prosecutors say land-grabbers invoke those rules to justify occupation.",
+          "evidence": [
+            {
+              "source_url": "https://news.mongabay.com/short-article/2026/09/ituna-itata-invasion-escalates-as-indigenous-land-faces-fires-and-illegal-clearing/",
+              "passage": "Prosecutors’ account of land-grabbers invoking the state designation",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "The federal government has argued that deployment requires state authorisation; prosecutors say federal forces can operate on federal land without it.",
+          "evidence": [
+            {
+              "source_url": "https://news.mongabay.com/short-article/2026/09/ituna-itata-invasion-escalates-as-indigenous-land-faces-fires-and-illegal-clearing/",
+              "passage": "Final paragraph: state-authorisation objection and prosecutors’ federal-land deployment argument",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Land-grabbers can exploit conflicting protections while changing the land itself.",
+          "evidence": [
+            {
+              "source_url": "https://news.mongabay.com/short-article/2026/09/ituna-itata-invasion-escalates-as-indigenous-land-faces-fires-and-illegal-clearing/",
+              "passage": "Prosecutors’ account of land-grabbers invoking APA Bacajaí, existing road-building/clearing and delayed deployment",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "In Ituna-Itatá, occupiers invoke state rules permitting housing and ranching on territory protected for isolated Indigenous people.",
+          "evidence": [
+            {
+              "source_url": "https://news.mongabay.com/short-article/2026/09/ituna-itata-invasion-escalates-as-indigenous-land-faces-fires-and-illegal-clearing/",
+              "passage": "APA Bacajaí overlap and permitted private housing/livestock; territory protecting isolated Indigenous people",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Roads and clearing proceed while federal enforcement is delayed.",
+          "evidence": [
+            {
+              "source_url": "https://news.mongabay.com/short-article/2026/09/ituna-itata-invasion-escalates-as-indigenous-land-faces-fires-and-illegal-clearing/",
+              "passage": "Roads, fires and clearing; federal forces not deployed by September 11 despite the August 26 order",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        }
+      ],
+      "sources": [
+        {
+          "name": "Mongabay",
+          "title": "Ituna/Itatá invasion escalates as Indigenous Land faces fires and illegal clearing",
+          "author": "Aimee Gabay",
+          "published_date": "2026-09-12",
+          "url": "https://news.mongabay.com/short-article/2026/09/ituna-itata-invasion-escalates-as-indigenous-land-faces-fires-and-illegal-clearing/",
+          "display": "reporting"
+        }
+      ],
+      "currencies": []
+    },
+    {
+      "type": "dispatch",
+      "headline": "Nigeria pays former airline workers after a 22-year wait",
+      "countries": [
+        "Nigeria"
+      ],
+      "topics": [
+        "public obligations"
+      ],
+      "thesis": "",
+      "summary": "Nigeria’s government says it has paid severance to 2,100 former Nigeria Airways workers and cleared another 600 for payment. The announced settlement covers 18 billion Nigerian naira (about US$14 million) in benefits left unpaid after the state airline’s liquidation in 2004. Finance Minister Taiwo Oyedele said some workers had died waiting; documented next of kin can receive their benefits after legal checks. Payments use the amounts originally recorded, with no inflation adjustment; Oyedele acknowledged that inflation had substantially reduced their value.",
+      "perspective": "After a 22-year wait, the payment has lost much of its purchasing power. With no inflation adjustment, the workers bear the financial cost of the government’s delay.",
+      "analogy_weakness": "",
+      "counterexample": "",
+      "members": [
+        {
+          "proposition": "Nigeria began paying ₦18 billion in long-delayed severance benefits to former Nigeria Airways workers, with 2,100 paid and 600 more cleared for payment.",
+          "countries": [
+            "Nigeria"
+          ],
+          "role": "primary",
+          "contribution": "",
+          "limitation": "",
+          "follow_up_reason": ""
+        }
+      ],
+      "claims": [
+        {
+          "text": "Nigeria pays former airline workers after a 22-year wait",
+          "evidence": [
+            {
+              "source_url": "https://www.channelstv.com/2026/09/11/fg-pays-%E2%82%A618bn-severance-benefits-to-ex-nigeria-airways-workers/",
+              "passage": "Lead: payments begun after the 2004 liquidation",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Nigeria’s government says it has paid severance to 2,100 former Nigeria Airways workers and cleared another 600 for payment.",
+          "evidence": [
+            {
+              "source_url": "https://www.channelstv.com/2026/09/11/fg-pays-%E2%82%A618bn-severance-benefits-to-ex-nigeria-airways-workers/",
+              "passage": "Minister’s payment update: 2,100 paid, 600 cleared",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "The announced settlement covers 18 billion Nigerian naira (about US$14 million) in benefits left unpaid after the state airline’s liquidation in 2004.",
+          "evidence": [
+            {
+              "source_url": "https://www.channelstv.com/2026/09/11/fg-pays-%E2%82%A618bn-severance-benefits-to-ex-nigeria-airways-workers/",
+              "passage": "Lead and settlement announcement: 18 billion naira and 2004 liquidation",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": [
+            0
+          ]
+        },
+        {
+          "text": "Finance Minister Taiwo Oyedele said some workers had died waiting; documented next of kin can receive their benefits after legal checks.",
+          "evidence": [
+            {
+              "source_url": "https://www.channelstv.com/2026/09/11/fg-pays-%E2%82%A618bn-severance-benefits-to-ex-nigeria-airways-workers/",
+              "passage": "Minister’s answer about deceased workers and next-of-kin legal documentation",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Payments use the amounts originally recorded, with no inflation adjustment; Oyedele acknowledged that inflation had substantially reduced their value.",
+          "evidence": [
+            {
+              "source_url": "https://www.thisdaylive.com/2026/09/12/fg-begins-payment-of-n18bn-severance-benefits-to-defunct-nigeria-airways-workers-after-22-years/",
+              "passage": "Minister’s inflation answer: original amounts paid with no inflation adjustment",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "After a 22-year wait, the payment has lost much of its purchasing power.",
+          "evidence": [
+            {
+              "source_url": "https://www.channelstv.com/2026/09/11/fg-pays-%E2%82%A618bn-severance-benefits-to-ex-nigeria-airways-workers/",
+              "passage": "2004 liquidation and 22-year wait; minister’s answer acknowledging lost purchasing power",
+              "excerpt": "",
+              "excerpt_rights": ""
+            },
+            {
+              "source_url": "https://www.thisdaylive.com/2026/09/12/fg-begins-payment-of-n18bn-severance-benefits-to-defunct-nigeria-airways-workers-after-22-years/",
+              "passage": "2004 liquidation and 22-year wait; minister’s answer acknowledging lost purchasing power",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "With no inflation adjustment, the workers bear the financial cost of the government’s delay.",
+          "evidence": [
+            {
+              "source_url": "https://www.thisdaylive.com/2026/09/12/fg-begins-payment-of-n18bn-severance-benefits-to-defunct-nigeria-airways-workers-after-22-years/",
+              "passage": "Minister’s inflation answer: original amounts paid with no inflation adjustment",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        }
+      ],
+      "sources": [
+        {
+          "name": "Channels Television",
+          "title": "FG Pays ₦18bn Severance Benefits To Ex-Nigeria Airways Workers",
+          "author": "Sarah Achimugu",
+          "published_date": "2026-09-11",
+          "url": "https://www.channelstv.com/2026/09/11/fg-pays-%E2%82%A618bn-severance-benefits-to-ex-nigeria-airways-workers/",
+          "display": "reporting"
+        },
+        {
+          "name": "ThisDay",
+          "title": "FG Begins Payment of N18bn Severance Benefits to Defunct Nigeria Airways Workers After 22 Years",
+          "author": "Ndubuisi Francis and James Emejo",
+          "published_date": "2026-09-12",
+          "url": "https://www.thisdaylive.com/2026/09/12/fg-begins-payment-of-n18bn-severance-benefits-to-defunct-nigeria-airways-workers-after-22-years/",
+          "display": "reporting"
+        }
+      ],
+      "currencies": [
+        {
+          "currency": "NGN",
+          "local_name": "Nigerian naira",
+          "local_amount": "18000000000",
+          "local_per_usd": "1326.3014",
+          "rate_date": "2026-09-14",
+          "source_name": "Central Bank of Nigeria · official NFEM daily rate",
+          "source_url": "https://www.cbn.gov.ng/rates/ExchRateByCurrency.html"
+        }
+      ]
+    },
+    {
+      "type": "dispatch",
+      "headline": "Assam must compensate families after deportations blocked court challenges",
+      "countries": [
+        "India"
+      ],
+      "topics": [
+        "citizenship"
+      ],
+      "thesis": "",
+      "summary": "Indian authorities expelled two women to Bangladesh before they could challenge tribunal rulings declaring them foreigners. On September 3, the Gauhati High Court awarded interim compensation of 200,000 Indian rupees (about US$2,100) each to Jahanara Begum’s son and Mumtaz Begum’s husband. In Jahanara’s case, the court said officials failed to provide the tribunal’s ruling and keep her family informed. Across Assam, it told border police to give people declared foreigners a copy of the ruling before detaining them on the day it is issued. Neither order establishes that the women are Indian citizens.",
+      "perspective": "A right to challenge a citizenship ruling offers little protection if officials deport someone before they can use it. To let these women contest the tribunal rulings, the Gauhati High Court is seeking the foreign ministry’s help to find them in Bangladesh and arrange their return.",
+      "analogy_weakness": "",
+      "counterexample": "",
+      "members": [
+        {
+          "proposition": "The Gauhati High Court ordered Assam to pay compensation in two cases involving women forced into Bangladesh without the required deportation process.",
+          "countries": [
+            "India"
+          ],
+          "role": "primary",
+          "contribution": "",
+          "limitation": "",
+          "follow_up_reason": ""
+        }
+      ],
+      "claims": [
+        {
+          "text": "Assam must compensate families after deportations blocked court challenges",
+          "evidence": [
+            {
+              "source_url": "https://indiankanoon.org/doc/156272210/",
+              "passage": "Reported court challenge failures; court orders on lost opportunity for review and interim compensation",
+              "excerpt": "",
+              "excerpt_rights": ""
+            },
+            {
+              "source_url": "https://indiankanoon.org/doc/94158287/",
+              "passage": "Reported court challenge failures; court orders on lost opportunity for review and interim compensation",
+              "excerpt": "",
+              "excerpt_rights": ""
+            },
+            {
+              "source_url": "https://scroll.in/latest/1095603/hc-asks-assam-to-pay-rs-2-lakh-to-another-woman-forced-into-bangladesh",
+              "passage": "Reported court challenge failures; court orders on lost opportunity for review and interim compensation",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Indian authorities expelled two women to Bangladesh before they could challenge tribunal rulings declaring them foreigners.",
+          "evidence": [
+            {
+              "source_url": "https://indiankanoon.org/doc/156272210/",
+              "passage": "Jahanara paragraphs 32, 36–39; Mumtaz paragraphs 31, 35–38: expulsion prevented challenges to tribunal opinions",
+              "excerpt": "",
+              "excerpt_rights": ""
+            },
+            {
+              "source_url": "https://indiankanoon.org/doc/94158287/",
+              "passage": "Jahanara paragraphs 32, 36–39; Mumtaz paragraphs 31, 35–38: expulsion prevented challenges to tribunal opinions",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "On September 3, the Gauhati High Court awarded interim compensation of 200,000 Indian rupees (about US$2,100) each to Jahanara Begum’s son and Mumtaz Begum’s husband.",
+          "evidence": [
+            {
+              "source_url": "https://indiankanoon.org/doc/156272210/",
+              "passage": "Jahanara paragraphs 42–43; Mumtaz paragraphs 41–42: interim compensation amounts and petitioner identities",
+              "excerpt": "",
+              "excerpt_rights": ""
+            },
+            {
+              "source_url": "https://indiankanoon.org/doc/94158287/",
+              "passage": "Jahanara paragraphs 42–43; Mumtaz paragraphs 41–42: interim compensation amounts and petitioner identities",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": [
+            0
+          ]
+        },
+        {
+          "text": "In Jahanara’s case, the court said officials failed to provide the tribunal’s ruling and keep her family informed.",
+          "evidence": [
+            {
+              "source_url": "https://indiankanoon.org/doc/156272210/",
+              "passage": "Jahanara paragraphs 34, 36–39: tribunal opinion, notification failures and delayed certified copy",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Across Assam, it told border police to give people declared foreigners a copy of the ruling before detaining them on the day it is issued.",
+          "evidence": [
+            {
+              "source_url": "https://indiankanoon.org/doc/156272210/",
+              "passage": "Jahanara paragraph 44(a); Mumtaz paragraph 43(a): statewide interim safeguards for same-day detention after a tribunal opinion",
+              "excerpt": "",
+              "excerpt_rights": ""
+            },
+            {
+              "source_url": "https://indiankanoon.org/doc/94158287/",
+              "passage": "Jahanara paragraph 44(a); Mumtaz paragraph 43(a): statewide interim safeguards for same-day detention after a tribunal opinion",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Neither order establishes that the women are Indian citizens.",
+          "evidence": [
+            {
+              "source_url": "https://indiankanoon.org/doc/156272210/",
+              "passage": "Interim relief and a future opportunity to challenge the tribunal opinions, not a citizenship determination",
+              "excerpt": "",
+              "excerpt_rights": ""
+            },
+            {
+              "source_url": "https://indiankanoon.org/doc/94158287/",
+              "passage": "Interim relief and a future opportunity to challenge the tribunal opinions, not a citizenship determination",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "A right to challenge a citizenship ruling offers little protection if officials deport someone before they can use it.",
+          "evidence": [
+            {
+              "source_url": "https://indiankanoon.org/doc/156272210/",
+              "passage": "Jahanara paragraphs 32, 36–41; Mumtaz paragraphs 35–40: blocked review after expulsion; editorial inference about effective access",
+              "excerpt": "",
+              "excerpt_rights": ""
+            },
+            {
+              "source_url": "https://indiankanoon.org/doc/94158287/",
+              "passage": "Jahanara paragraphs 32, 36–41; Mumtaz paragraphs 35–40: blocked review after expulsion; editorial inference about effective access",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "To let these women contest the tribunal rulings, the Gauhati High Court is seeking the foreign ministry’s help to find them in Bangladesh and arrange their return.",
+          "evidence": [
+            {
+              "source_url": "https://indiankanoon.org/doc/156272210/",
+              "passage": "Jahanara paragraphs 40–41; Mumtaz paragraphs 39–40: foreign ministry joined for proposed subsequent directions to locate and enable return",
+              "excerpt": "",
+              "excerpt_rights": ""
+            },
+            {
+              "source_url": "https://indiankanoon.org/doc/94158287/",
+              "passage": "Jahanara paragraphs 40–41; Mumtaz paragraphs 39–40: foreign ministry joined for proposed subsequent directions to locate and enable return",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        }
+      ],
+      "sources": [
+        {
+          "name": "Gauhati High Court · via Indian Kanoon",
+          "title": "Md. Mujahidul Islam vs The Union Of India And Ors on 3 September, 2026",
+          "author": "Gauhati High Court; bench: Kalyan Rai Surana and Susmita Phukan Khaund",
+          "published_date": "2026-09-03",
+          "url": "https://indiankanoon.org/doc/156272210/",
+          "display": "evidence_only"
+        },
+        {
+          "name": "Gauhati High Court · via Indian Kanoon",
+          "title": "Mujammel Hoque vs The State Of Assam And 10 Ors on 3 September, 2026",
+          "author": "Gauhati High Court; bench: Kalyan Rai Surana and Susmita Phukan Khaund",
+          "published_date": "2026-09-03",
+          "url": "https://indiankanoon.org/doc/94158287/",
+          "display": "evidence_only"
+        },
+        {
+          "name": "Scroll.in",
+          "title": "HC asks Assam to pay Rs 2 lakh to another woman forced into Bangladesh",
+          "author": "Scroll Staff; written by Tanya Shrivastava, inputs by Rokibuz Zaman; edited by Sneha",
+          "published_date": "2026-09-08",
+          "url": "https://scroll.in/latest/1095603/hc-asks-assam-to-pay-rs-2-lakh-to-another-woman-forced-into-bangladesh",
+          "display": "reporting"
+        }
+      ],
+      "currencies": [
+        {
+          "currency": "INR",
+          "local_name": "Indian rupee",
+          "local_amount": "200000",
+          "local_per_usd": "95.55493030906415029001818024",
+          "rate_date": "2026-09-14",
+          "source_name": "European Central Bank · reference-rate USD cross-rate",
+          "source_url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist.xml"
+        }
+      ]
+    },
+    {
+      "type": "dispatch",
+      "headline": "Taiwan enacts a six-year programme for domestically made drones",
+      "countries": [
+        "Taiwan"
+      ],
+      "topics": [
+        "defense industry"
+      ],
+      "thesis": "",
+      "summary": "Taiwan has enacted a six-year programme prioritising low-cost, domestically made drones and unmanned vessels. It calls, in principle, for annual budgets totalling 240 billion New Taiwan dollars (about US$7.6 billion), rather than an upfront appropriation. President Lai Ching-te has cited growing Chinese military pressure while calling for drone mass production and supply chains independent of China. A RUSI study warns that replacing Chinese drone components requires manufacturing capacity, not just local assembly.",
+      "perspective": "A country preparing to deter China may still depend on Chinese components for its drones. If those supplies disappear, a cheap weapon can become difficult to replace. Taiwan’s domestic-production push targets that vulnerability, which local assembly alone cannot remove.",
+      "analogy_weakness": "",
+      "counterexample": "",
+      "members": [
+        {
+          "proposition": "Taiwan promulgated a law directing roughly NT$240 billion over six years toward the development and procurement of domestically produced unmanned systems.",
+          "countries": [
+            "Taiwan"
+          ],
+          "role": "primary",
+          "contribution": "",
+          "limitation": "",
+          "follow_up_reason": ""
+        }
+      ],
+      "claims": [
+        {
+          "text": "Taiwan enacts a six-year programme for domestically made drones",
+          "evidence": [
+            {
+              "source_url": "https://focustaiwan.tw/politics/202609110008",
+              "passage": "September 11 promulgation report: six-year programme and domestic-system priorities",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Taiwan has enacted a six-year programme prioritising low-cost, domestically made drones and unmanned vessels.",
+          "evidence": [
+            {
+              "source_url": "https://focustaiwan.tw/politics/202609110008",
+              "passage": "Programme duration and priority for low-cost domestically made unmanned systems",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "It calls, in principle, for annual budgets totalling 240 billion New Taiwan dollars (about US$7.6 billion), rather than an upfront appropriation.",
+          "evidence": [
+            {
+              "source_url": "https://focustaiwan.tw/politics/202609110008",
+              "passage": "In-principle annual allocation over six years, not full upfront funding",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": [
+            0
+          ]
+        },
+        {
+          "text": "President Lai Ching-te has cited growing Chinese military pressure while calling for drone mass production and supply chains independent of China.",
+          "evidence": [
+            {
+              "source_url": "https://english.president.gov.tw/News/7188",
+              "passage": "July 31 remarks: intensifying Chinese military pressure; drone mass production and non-red supply chains",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "A RUSI study warns that replacing Chinese drone components requires manufacturing capacity, not just local assembly.",
+          "evidence": [
+            {
+              "source_url": "https://static.rusi.org/rp-drone-supply-chains-china-nov-2025.pdf",
+              "passage": "Printed pages 1–4: Chinese critical components, sovereign manufacturing rather than assembly",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "A country preparing to deter China may still depend on Chinese components for its drones.",
+          "evidence": [
+            {
+              "source_url": "https://english.president.gov.tw/News/7188",
+              "passage": "July 31 deterrence remarks; RUSI printed pages 1–4 on Chinese-origin components and supply-chain vulnerability",
+              "excerpt": "",
+              "excerpt_rights": ""
+            },
+            {
+              "source_url": "https://static.rusi.org/rp-drone-supply-chains-china-nov-2025.pdf",
+              "passage": "July 31 deterrence remarks; RUSI printed pages 1–4 on Chinese-origin components and supply-chain vulnerability",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "If those supplies disappear, a cheap weapon can become difficult to replace.",
+          "evidence": [
+            {
+              "source_url": "https://static.rusi.org/rp-drone-supply-chains-china-nov-2025.pdf",
+              "passage": "Printed pages 1–4: affordability, Chinese component dependence and supply restrictions; conditional inference, not an embargo prediction",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Taiwan’s domestic-production push targets that vulnerability, which local assembly alone cannot remove.",
+          "evidence": [
+            {
+              "source_url": "https://english.president.gov.tw/News/7188",
+              "passage": "Domestic-system priorities and non-red supply-chain ambition; RUSI printed pages 1–4 on manufacturing rather than assembly",
+              "excerpt": "",
+              "excerpt_rights": ""
+            },
+            {
+              "source_url": "https://focustaiwan.tw/politics/202609110008",
+              "passage": "Domestic-system priorities and non-red supply-chain ambition; RUSI printed pages 1–4 on manufacturing rather than assembly",
+              "excerpt": "",
+              "excerpt_rights": ""
+            },
+            {
+              "source_url": "https://static.rusi.org/rp-drone-supply-chains-china-nov-2025.pdf",
+              "passage": "Domestic-system priorities and non-red supply-chain ambition; RUSI printed pages 1–4 on manufacturing rather than assembly",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        }
+      ],
+      "sources": [
+        {
+          "name": "Office of the President, Taiwan",
+          "title": "President Lai meets US House Subcommittee on East Asia and the Pacific Chairwoman Young Kim",
+          "author": "",
+          "published_date": "2026-07-31",
+          "url": "https://english.president.gov.tw/News/7188",
+          "display": "evidence_only"
+        },
+        {
+          "name": "Focus Taiwan",
+          "title": "President promulgates act to boost defense autonomy, drone industry",
+          "author": "Lai Yu-chen, Chen Chun-hua, Liu Kuan-ting, Sean Lin and Lee Hsin-Yin",
+          "published_date": "2026-09-11",
+          "url": "https://focustaiwan.tw/politics/202609110008",
+          "display": "reporting"
+        },
+        {
+          "name": "Royal United Services Institute",
+          "title": "Drones: Decoupling Supply Chains from China",
+          "author": "Robert Tollast",
+          "published_date": "2025-11-18",
+          "url": "https://static.rusi.org/rp-drone-supply-chains-china-nov-2025.pdf",
+          "display": "evidence_only"
+        }
+      ],
+      "currencies": [
+        {
+          "currency": "TWD",
+          "local_name": "New Taiwan dollar",
+          "local_amount": "240000000000",
+          "local_per_usd": "31.688",
+          "rate_date": "2026-09-14",
+          "source_name": "Central Bank of the Republic of China (Taiwan) · closing rate",
+          "source_url": "https://www.cbc.gov.tw/en/lp-700-2-1-40.html"
+        }
+      ]
+    },
+    {
+      "type": "dispatch",
+      "headline": "NSW Police settle lawsuit alleging unlawful bail checks",
+      "countries": [
+        "Australia"
+      ],
+      "topics": [
+        "policing"
+      ],
+      "thesis": "",
+      "summary": "NSW Police have reached a confidential settlement with two mothers whose Aboriginal sons faced repeated bail checks. One mother alleged that 59 of 109 visits breached the court’s conditions, including 25 when no enforcement condition was in force. Police maintain that the checks were lawful, relying on an implied licence to approach a home. The police watchdog has recommended seeking court permission. ABC News cites a study commissioned by the families’ legal team that found Aboriginal young people received 42% more checks on average in the first 30 days after release. The other mother’s racial-discrimination case continues in the Federal Court.",
+      "perspective": "Police can subject one group to much greater scrutiny without writing a separate rule for it. The continuing NSW case asks whether repeated bail checks on Aboriginal children amount to racial discrimination.",
+      "analogy_weakness": "",
+      "counterexample": "",
+      "members": [
+        {
+          "proposition": "Two mothers settled a trespass case against New South Wales Police after repeated home visits for bail checks, including checks made without court-authorized enforcement conditions.",
+          "countries": [
+            "Australia"
+          ],
+          "role": "primary",
+          "contribution": "",
+          "limitation": "",
+          "follow_up_reason": ""
+        }
+      ],
+      "claims": [
+        {
+          "text": "NSW Police settle lawsuit alleging unlawful bail checks",
+          "evidence": [
+            {
+              "source_url": "https://www.abc.net.au/news/2026-09-11/nsw-police-trespass-case-settlement-aboriginal-families/107137630",
+              "passage": "Lead: confidential settlement, not a judgment or admission; police defend lawfulness",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "NSW Police have reached a confidential settlement with two mothers whose Aboriginal sons faced repeated bail checks.",
+          "evidence": [
+            {
+              "source_url": "https://www.abc.net.au/news/2026-09-11/nsw-police-trespass-case-settlement-aboriginal-families/107137630",
+              "passage": "Lead and family accounts: mothers’ Aboriginal sons and repeated checks",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "One mother alleged that 59 of 109 visits breached the court’s conditions, including 25 when no enforcement condition was in force.",
+          "evidence": [
+            {
+              "source_url": "https://www.abc.net.au/news/2026-09-11/nsw-police-trespass-case-settlement-aboriginal-families/107137630",
+              "passage": "Joanne’s pleaded 59 of 109 visits, including 25 without enforcement conditions",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Police maintain that the checks were lawful, relying on an implied licence to approach a home.",
+          "evidence": [
+            {
+              "source_url": "https://www.abc.net.au/news/2026-09-11/nsw-police-trespass-case-settlement-aboriginal-families/107137630",
+              "passage": "Police response: implied licence and claimed lawfulness",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "The police watchdog has recommended seeking court permission.",
+          "evidence": [
+            {
+              "source_url": "https://www.abc.net.au/news/2026-09-11/nsw-police-trespass-case-settlement-aboriginal-families/107137630",
+              "passage": "LECC recommendation to seek court permission for checks",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "ABC News cites a study commissioned by the families’ legal team that found Aboriginal young people received 42% more checks on average in the first 30 days after release.",
+          "evidence": [
+            {
+              "source_url": "https://www.abc.net.au/news/2026-09-11/nsw-police-trespass-case-settlement-aboriginal-families/107137630",
+              "passage": "‘Overpolicing of Aboriginal communities’: JEC-commissioned study using BOCSAR data, 42% more average checks in first 30 days",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "The other mother’s racial-discrimination case continues in the Federal Court.",
+          "evidence": [
+            {
+              "source_url": "https://www.abc.net.au/news/2026-09-11/nsw-police-trespass-case-settlement-aboriginal-families/107137630",
+              "passage": "Megan’s continuing Federal Court racial-discrimination case; allegation not a finding",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Police can subject one group to much greater scrutiny without writing a separate rule for it.",
+          "evidence": [
+            {
+              "source_url": "https://www.abc.net.au/news/2026-09-11/nsw-police-trespass-case-settlement-aboriginal-families/107137630",
+              "passage": "Attributed JEC-commissioned check-frequency study and families’ discrimination claim; no judicial finding or demonstrated cause",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "The continuing NSW case asks whether repeated bail checks on Aboriginal children amount to racial discrimination.",
+          "evidence": [
+            {
+              "source_url": "https://www.abc.net.au/news/2026-09-11/nsw-police-trespass-case-settlement-aboriginal-families/107137630",
+              "passage": "Megan’s continuing Federal Court racial-discrimination case concerning repeated checks on her Aboriginal sons",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        }
+      ],
+      "sources": [
+        {
+          "name": "ABC News Australia",
+          "title": "NSW Police settles trespass case alleging 'excessive' bail checks on families",
+          "author": "Tahnee Jash",
+          "published_date": "2026-09-11",
+          "url": "https://www.abc.net.au/news/2026-09-11/nsw-police-trespass-case-settlement-aboriginal-families/107137630",
+          "display": "reporting"
+        }
+      ],
+      "currencies": []
+    },
+    {
+      "type": "dispatch",
+      "headline": "Morocco reserves regional parliamentary lists for women",
+      "countries": [
+        "Morocco"
+      ],
+      "topics": [
+        "political representation"
+      ],
+      "thesis": "",
+      "summary": "Morocco’s revised electoral rules reserve regional parliamentary candidacies for women, while leaving local constituencies open to both sexes. If a regional seat becomes vacant, another woman must fill it. New parties must have at least four women among the 12 people filing their founding declaration, and at least 400 among their 2,000 founding members. The legislative election is scheduled for September 23.",
+      "perspective": "Women seeking a political career can face barriers before an election, in the party networks that recruit and promote candidates. Morocco’s requirements for women among new party founders try to widen participation at that earlier stage.",
+      "analogy_weakness": "",
+      "counterexample": "",
+      "members": [
+        {
+          "proposition": "Morocco's 2026 electoral framework reserves regional parliamentary candidacies for women and raises women's required representation among political-party founders.",
+          "countries": [
+            "Morocco"
+          ],
+          "role": "primary",
+          "contribution": "",
+          "limitation": "",
+          "follow_up_reason": ""
+        }
+      ],
+      "claims": [
+        {
+          "text": "Morocco reserves regional parliamentary lists for women",
+          "evidence": [
+            {
+              "source_url": "https://www.moroccoworldnews.com/2026/09/337009/morocco-reserves-regional-seats-for-women-raises-party-gender-requirements/",
+              "passage": "Regional-list eligibility and female replacement rule",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Morocco’s revised electoral rules reserve regional parliamentary candidacies for women, while leaving local constituencies open to both sexes.",
+          "evidence": [
+            {
+              "source_url": "https://www.moroccoworldnews.com/2026/09/337009/morocco-reserves-regional-seats-for-women-raises-party-gender-requirements/",
+              "passage": "Regional-list eligibility and female replacement rule",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "If a regional seat becomes vacant, another woman must fill it.",
+          "evidence": [
+            {
+              "source_url": "https://www.moroccoworldnews.com/2026/09/337009/morocco-reserves-regional-seats-for-women-raises-party-gender-requirements/",
+              "passage": "Regional-list eligibility and female replacement rule",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "New parties must have at least four women among the 12 people filing their founding declaration, and at least 400 among their 2,000 founding members.",
+          "evidence": [
+            {
+              "source_url": "https://www.moroccoworldnews.com/2026/09/337009/morocco-reserves-regional-seats-for-women-raises-party-gender-requirements/",
+              "passage": "‘More women required in political parties’: four of 12 declarants, 400 of 2,000 founding members",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "The legislative election is scheduled for September 23.",
+          "evidence": [
+            {
+              "source_url": "https://www.moroccoworldnews.com/2026/09/337009/morocco-reserves-regional-seats-for-women-raises-party-gender-requirements/",
+              "passage": "Opening paragraphs: September 23 election date",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Women seeking a political career can face barriers before an election, in the party networks that recruit and promote candidates.",
+          "evidence": [
+            {
+              "source_url": "https://www.moroccoworldnews.com/2026/09/337009/morocco-reserves-regional-seats-for-women-raises-party-gender-requirements/",
+              "passage": "Regional seat allocation and additional party-founding requirements; inference about different stages of entry, not established control",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Morocco’s requirements for women among new party founders try to widen participation at that earlier stage.",
+          "evidence": [
+            {
+              "source_url": "https://www.moroccoworldnews.com/2026/09/337009/morocco-reserves-regional-seats-for-women-raises-party-gender-requirements/",
+              "passage": "‘More women required in political parties’: four of 12 declarants and 400 of 2,000 founding members for new parties",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        }
+      ],
+      "sources": [
+        {
+          "name": "Morocco World News",
+          "title": "Morocco Reserves Regional Seats for Women, Raises Party Gender Requirements",
+          "author": "Sara Zouiten",
+          "published_date": "2026-09-03",
+          "url": "https://www.moroccoworldnews.com/2026/09/337009/morocco-reserves-regional-seats-for-women-raises-party-gender-requirements/",
+          "display": "reporting"
+        }
+      ],
+      "currencies": []
+    },
+    {
+      "type": "dispatch",
+      "headline": "Paracatu officials learn of a proposed 1GW data centre from reporters",
+      "countries": [
+        "Brazil"
+      ],
+      "topics": [
+        "AI infrastructure"
+      ],
+      "thesis": "",
+      "summary": "Atlas Renewable Energy has proposed a 1-gigawatt data centre in Paracatu, Minas Gerais. Mongabay and Intercept Brasil report that its planned power capacity exceeds that of all Brazil’s operating data centres combined. In interviews in May, the city-council president and residents learned of it from reporters. Atlas says the project is preliminary and no technical decisions have been made. It proposes supplying the centre from local solar plants where generation has been curtailed, according to the reporting. It has not disclosed its water source or expected consumption. Official water-conflict designations cover about 80% of the municipality, and the proposed site borders one such area.",
+      "perspective": "Electricity can be abundant where water is already contested. Turning unused solar output into data-centre demand may suit the power supplier without suiting the host community.",
+      "analogy_weakness": "",
+      "counterexample": "",
+      "members": [
+        {
+          "proposition": "Atlas Renewable Energy advanced a proposed 1-gigawatt data centre in Paracatu without disclosing its water source or consulting local officials and residents interviewed there.",
+          "countries": [
+            "Brazil"
+          ],
+          "role": "primary",
+          "contribution": "",
+          "limitation": "",
+          "follow_up_reason": ""
+        }
+      ],
+      "claims": [
+        {
+          "text": "Paracatu officials learn of a proposed 1GW data centre from reporters",
+          "evidence": [
+            {
+              "source_url": "https://news.mongabay.com/2026/09/huge-ai-data-center-project-blindsides-water-stressed-town-in-brazil/",
+              "passage": "Lead and May interviews: city-council president and interviewed residents learned from reporters",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Atlas Renewable Energy has proposed a 1-gigawatt data centre in Paracatu, Minas Gerais.",
+          "evidence": [
+            {
+              "source_url": "https://news.mongabay.com/2026/09/huge-ai-data-center-project-blindsides-water-stressed-town-in-brazil/",
+              "passage": "Lead: Atlas’s proposed 1 GW facility in Paracatu, Minas Gerais",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Mongabay and Intercept Brasil report that its planned power capacity exceeds that of all Brazil’s operating data centres combined.",
+          "evidence": [
+            {
+              "source_url": "https://news.mongabay.com/2026/09/huge-ai-data-center-project-blindsides-water-stressed-town-in-brazil/",
+              "passage": "Capacity comparison: proposed 1 GW versus about 800 MW operating nationally at the time of reporting",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "In interviews in May, the city-council president and residents learned of it from reporters.",
+          "evidence": [
+            {
+              "source_url": "https://news.mongabay.com/2026/09/huge-ai-data-center-project-blindsides-water-stressed-town-in-brazil/",
+              "passage": "May interviews with Manoel Alves and residents; not a claim that every official was unaware",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Atlas says the project is preliminary and no technical decisions have been made.",
+          "evidence": [
+            {
+              "source_url": "https://news.mongabay.com/2026/09/huge-ai-data-center-project-blindsides-water-stressed-town-in-brazil/",
+              "passage": "Atlas’s response: preliminary study, no technical decisions made",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "It proposes supplying the centre from local solar plants where generation has been curtailed, according to the reporting.",
+          "evidence": [
+            {
+              "source_url": "https://news.mongabay.com/2026/09/huge-ai-data-center-project-blindsides-water-stressed-town-in-brazil/",
+              "passage": "‘New solar panels feeding data center’: associated Luiz Carlos solar supply and curtailed generation",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "It has not disclosed its water source or expected consumption.",
+          "evidence": [
+            {
+              "source_url": "https://news.mongabay.com/2026/09/huge-ai-data-center-project-blindsides-water-stressed-town-in-brazil/",
+              "passage": "‘80% of Paracatu has water conflicts’: water source and consumption not disclosed",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Official water-conflict designations cover about 80% of the municipality, and the proposed site borders one such area.",
+          "evidence": [
+            {
+              "source_url": "https://news.mongabay.com/2026/09/huge-ai-data-center-project-blindsides-water-stressed-town-in-brazil/",
+              "passage": "‘80% of Paracatu has water conflicts’: mapped designations and site bordering a conflict area",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Electricity can be abundant where water is already contested.",
+          "evidence": [
+            {
+              "source_url": "https://news.mongabay.com/2026/09/huge-ai-data-center-project-blindsides-water-stressed-town-in-brazil/",
+              "passage": "‘New solar panels feeding data center’: curtailed generation and new demand; water-conflict designations and undisclosed project consumption",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Turning unused solar output into data-centre demand may suit the power supplier without suiting the host community.",
+          "evidence": [
+            {
+              "source_url": "https://news.mongabay.com/2026/09/huge-ai-data-center-project-blindsides-water-stressed-town-in-brazil/",
+              "passage": "‘New solar panels feeding data center’: curtailed generation and new demand; water-conflict designations and undisclosed project consumption",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        }
+      ],
+      "sources": [
+        {
+          "name": "Mongabay",
+          "title": "Huge AI data center project blindsides water-stressed town in Brazil",
+          "author": "Naira Hofmeister",
+          "published_date": "2026-09-10",
+          "url": "https://news.mongabay.com/2026/09/huge-ai-data-center-project-blindsides-water-stressed-town-in-brazil/",
+          "display": "reporting"
+        }
+      ],
+      "currencies": []
+    },
+    {
+      "type": "dispatch",
+      "headline": "Polish diocese ordered to compensate a woman abused by a priest",
+      "countries": [
+        "Poland"
+      ],
+      "topics": [
+        "institutional liability"
+      ],
+      "thesis": "",
+      "summary": "A Kielce court has ordered the Catholic diocese to pay 550,000 Polish złoty (about US$150,000) to Iwona Dudzik-Osińska, who agreed to be named publicly. She was abused by a parish priest from the age of 12, beginning in 1981. A criminal investigation in 2007 was discontinued because the alleged offences were too old to prosecute. In 2019, the bishop declined to fund therapy from church funds but later gave her money from his personal account. The July civil judgment, reported on September 2, can still be appealed.",
+      "perspective": "An abuse survivor seeking redress can be left dependent on an official’s personal generosity. The Kielce judgment makes the diocese itself responsible for compensation, giving her a claim against the institution.",
+      "analogy_weakness": "",
+      "counterexample": "",
+      "members": [
+        {
+          "proposition": "A Polish civil court ordered the Kielce diocese to compensate a woman for sexual abuse committed by a priest more than four decades earlier.",
+          "countries": [
+            "Poland"
+          ],
+          "role": "primary",
+          "contribution": "",
+          "limitation": "",
+          "follow_up_reason": ""
+        }
+      ],
+      "claims": [
+        {
+          "text": "Polish diocese ordered to compensate a woman abused by a priest",
+          "evidence": [
+            {
+              "source_url": "https://notesfrompoland.com/2026/09/02/polish-court-orders-catholic-diocese-to-compensate-child-sex-abuse-victim-and-priest-to-apologise/",
+              "passage": "Lead and civil judgment: compensation ordered against Kielce diocese",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "A Kielce court has ordered the Catholic diocese to pay 550,000 Polish złoty (about US$150,000) to Iwona Dudzik-Osińska, who agreed to be named publicly.",
+          "evidence": [
+            {
+              "source_url": "https://notesfrompoland.com/2026/09/02/polish-court-orders-catholic-diocese-to-compensate-child-sex-abuse-victim-and-priest-to-apologise/",
+              "passage": "Lead: amount, claimant identity and consent to public identification",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": [
+            0
+          ]
+        },
+        {
+          "text": "She was abused by a parish priest from the age of 12, beginning in 1981.",
+          "evidence": [
+            {
+              "source_url": "https://notesfrompoland.com/2026/09/02/polish-court-orders-catholic-diocese-to-compensate-child-sex-abuse-victim-and-priest-to-apologise/",
+              "passage": "Abuse history: age 12 and abuse beginning in 1981",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "A criminal investigation in 2007 was discontinued because the alleged offences were too old to prosecute.",
+          "evidence": [
+            {
+              "source_url": "https://notesfrompoland.com/2026/09/02/polish-court-orders-catholic-diocese-to-compensate-child-sex-abuse-victim-and-priest-to-apologise/",
+              "passage": "Paragraph on the 2007 criminal investigation and limitation period",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "In 2019, the bishop declined to fund therapy from church funds but later gave her money from his personal account.",
+          "evidence": [
+            {
+              "source_url": "https://notesfrompoland.com/2026/09/02/polish-court-orders-catholic-diocese-to-compensate-child-sex-abuse-victim-and-priest-to-apologise/",
+              "passage": "Paragraphs on the 2019 meeting: church therapy funds declined, later personal payment by bishop",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "The July civil judgment, reported on September 2, can still be appealed.",
+          "evidence": [
+            {
+              "source_url": "https://notesfrompoland.com/2026/09/02/polish-court-orders-catholic-diocese-to-compensate-child-sex-abuse-victim-and-priest-to-apologise/",
+              "passage": "July judgment, September 2 report date and right of appeal",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "An abuse survivor seeking redress can be left dependent on an official’s personal generosity.",
+          "evidence": [
+            {
+              "source_url": "https://notesfrompoland.com/2026/09/02/polish-court-orders-catholic-diocese-to-compensate-child-sex-abuse-victim-and-priest-to-apologise/",
+              "passage": "2019 bishop’s personal help after refusing church therapy funds; inference about discretionary assistance",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "The Kielce judgment makes the diocese itself responsible for compensation, giving her a claim against the institution.",
+          "evidence": [
+            {
+              "source_url": "https://notesfrompoland.com/2026/09/02/polish-court-orders-catholic-diocese-to-compensate-child-sex-abuse-victim-and-priest-to-apologise/",
+              "passage": "July judgment ordering compensation from the diocese; judgment remains appealable",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        }
+      ],
+      "sources": [
+        {
+          "name": "Notes from Poland",
+          "title": "Polish court orders Catholic diocese to compensate child sex abuse victim and priest to apologise",
+          "author": "Daniel Tilles",
+          "published_date": "2026-09-02",
+          "url": "https://notesfrompoland.com/2026/09/02/polish-court-orders-catholic-diocese-to-compensate-child-sex-abuse-victim-and-priest-to-apologise/",
+          "display": "reporting"
+        }
+      ],
+      "currencies": [
+        {
+          "currency": "PLN",
+          "local_name": "Polish złoty",
+          "local_amount": "550000",
+          "local_per_usd": "3.758808761146221106397714484",
+          "rate_date": "2026-09-14",
+          "source_name": "European Central Bank · reference-rate USD cross-rate",
+          "source_url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist.xml"
+        }
+      ]
+    }
+  ],
+  "corrections": []
+}

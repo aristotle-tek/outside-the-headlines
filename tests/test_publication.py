@@ -3,6 +3,7 @@ from datetime import date, datetime, timezone
 from pathlib import Path
 from decimal import Decimal
 import json
+import hashlib
 import shutil
 
 import pytest
@@ -106,6 +107,65 @@ def test_build_escapes_copy_and_collapses_evidence(tmp_path):
     assert "Claim 1" not in text and "Quality gates" not in text
     assert "United States" in text and "Published" in text
     assert (root / "dist/feed.xml").read_text().count("<item>") == 1
+
+
+def test_legacy_source_display_defaults_do_not_change_release_hash():
+    data = test_input().model_dump(mode="json")
+    for unit in data["units"]:
+        for source in unit["sources"]:
+            source.pop("display")
+    payload = {k: v for k, v in data.items() if k not in {"content_hash", "published_at", "revision_number", "corrections"}}
+    data["content_hash"] = hashlib.sha256(json.dumps(payload, sort_keys=True, ensure_ascii=False, separators=(",", ":")).encode()).hexdigest()
+    release = Release.model_validate(data)
+    assert release.units[0].sources[0].display == "reporting"
+    assert release.calculated_hash() == data["content_hash"]
+    data["units"][0]["sources"][0]["display"] = "evidence_only"
+    with pytest.raises(ValidationError, match="checksum"):
+        Release.model_validate(data)
+
+
+def test_supporting_sources_and_author_credits_are_inside_evidence(tmp_path):
+    root = checkout(tmp_path)
+    release = test_input()
+    release.units[0].sources[0].display = "evidence_only"
+    release.units[0].sources[0].author = "Test document credit"
+    release.units[1].sources[0].author = "Test reporter credit"
+    release.content_hash = release.calculated_hash()
+    write(root, release)
+    build(root)
+    html = (root / "dist" / release.path.lstrip("/") / "index.html").read_text()
+    import re
+    visible = re.sub(r'<details class="evidence">.*?</details>', "", html, flags=re.S)
+    assert "Test document credit" not in visible and "Test reporter credit" not in visible
+    assert "Test document credit" in html and "Test reporter credit" in html
+    assert html.count('<details class="evidence">') == 5
+    assert "\u2014" not in html
+
+
+def test_about_back_story_precedes_sources_and_preserves_requested_copy(tmp_path):
+    root = checkout(tmp_path)
+    build(root)
+    html = (root / "dist/about/index.html").read_text()
+    assert "For readers who follow the news and want to read outside the repeated and narrow confines of the headlines." in html
+    assert "markets and ordinary life.</p>" in html
+    assert "bored with its repeated choices" not in html
+    assert "that deserve attention beyond" not in html
+    assert "An unfamiliar location is not" not in html
+    assert "Each edition is a finite collection" not in html
+    assert "a Pattern brings them together" not in html
+    assert "Humor is optional." not in html
+    assert '<h2 id="back-story">Our back story</h2>' in html
+    assert html.index("Our back story") < html.index("Sources and corrections")
+    assert "places you'd never heard of, or dynamics that you hadn't considered" in html
+    assert "you learned more than you would have learned from reading a hundred more headlines" in html
+    assert "yesterday's headlines. I wanted to be able to recreate" in html
+    assert "AI's ability to search the depths of the internet" in html
+    assert "selection, presentation, and overall direction" in html
+    assert "factual checking" not in html
+    assert "have not yet been established through reader testing" not in html
+    assert "This is an early publication experiment." in html
+    assert "Private page preview" not in html and "Review and approve" not in html
+    assert "\u2014" not in html
 
 
 def test_empty_site_and_deterministic_reruns(tmp_path):

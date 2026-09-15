@@ -48,6 +48,7 @@ class Source(PublicModel):
     author: str = ""
     published_date: date
     url: str
+    display: Literal["reporting", "evidence_only"] = "reporting"
 
     _url = field_validator("url")(public_url)
 
@@ -192,6 +193,13 @@ class Release(PublicModel):
 
     def calculated_hash(self) -> str:
         payload = self.model_dump(mode="json", exclude={"content_hash", "published_at", "revision_number", "corrections"})
+        # The additive presentation hint must not invalidate legacy releases.
+        # Its non-default value affects the hash; normal reporting retains the
+        # original canonical representation, whether explicit or defaulted.
+        for unit in payload["units"]:
+            for source in unit["sources"]:
+                if source.get("display") == "reporting":
+                    source.pop("display")
         return hashlib.sha256(json.dumps(payload, sort_keys=True, ensure_ascii=False, separators=(",", ":")).encode()).hexdigest()
 
     @model_validator(mode="after")

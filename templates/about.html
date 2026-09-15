@@ -1,2 +1,21 @@
 {% extends 'base.html' %}
-{% block content %}<div class="reading prose"><p class="eyebrow">About the publication</p><h1>Outside the Headlines</h1><p>For readers who follow the news and are bored with its repeated choices about what matters.</p><p>We look for consequential developments in the long tail: changes in institutions, science, law, markets and ordinary life that deserve attention beyond the places where they happened. An unfamiliar location is not, by itself, a reason to include a story.</p><p>Each edition is a finite collection, selected and edited as a whole. When several developments support a genuinely useful inference, a Pattern brings them together. Humor is optional.</p><h2 id="sources">Sources and corrections</h2><p>Summaries link to the original reporting. Each story has a compact evidence disclosure for readers who want to check a particular claim. Reporting and source material remain the property of their respective publishers.</p><p>Material corrections are dated on the issue page. An edition’s original date and publication timestamp remain visible when it is revised.</p><h2>An editorial experiment</h2><p>Software and language models help with research and drafting; an editor is responsible for selection, factual checking and the final copy. This is an early publication experiment. Its novelty, reading value and appeal have not yet been established through reader testing.</p><h2>Follow the editions</h2><p><a href="/feed.xml">Subscribe by RSS</a>. Email delivery is not available yet. There are no application trackers or advertising scripts; the hosting provider may keep infrastructure logs.</p></div>{% endblock %}
+{% block content %}
+<div class="reading prose">
+  <p class="eyebrow">About the publication</p>
+  <h1>Outside the Headlines</h1>
+  <p>For readers who follow the news and want to read outside the repeated and narrow confines of the headlines.</p>
+  <p>We look for consequential developments in the long tail: changes in institutions, science, law, markets and ordinary life.</p>
+
+  <h2 id="back-story">Our back story</h2>
+  <p>There used to be a time when people received their paper newspaper in the morning, and in the best cases had the time to sip a coffee and read the back pages, where you sometimes stumbled upon obscure news stories about places you'd never heard of, or dynamics that you hadn't considered. And in a few of these cases, you learned more than you would have learned from reading a hundred more headlines.</p>
+  <p>These days we tend to doomscroll or read the latest headlines in a news app, which are most likely very similar to yesterday's headlines. I wanted to be able to recreate the discovery and depth of the back pages of a newspaper by leveraging AI's ability to search the depths of the internet, while at the same time including a human editorial review process that focuses on articles that bring insight to how the world is changing and dynamics that are not captured by the headlines and front pages.</p>
+
+  <h2 id="sources">Sources and corrections</h2>
+  <p>Summaries link to the original reporting. Each story has a compact evidence disclosure for readers who want to check a particular claim. Reporting and source material remain the property of their respective publishers.</p>
+  <p>Material corrections are dated on the issue page. An edition’s original date and publication timestamp remain visible when it is revised.</p>
+  <h2>An editorial experiment</h2>
+  <p>Software and language models help with research and drafting; an editor is responsible for selection, presentation, and overall direction. This is an early publication experiment.</p>
+  <h2>Follow the editions</h2>
+  <p><a href="{% if private_preview|default(false) %}{{ base_url }}{% endif %}/feed.xml">Subscribe by RSS</a>. Email delivery is not available yet. There are no application trackers or advertising scripts; the hosting provider may keep infrastructure logs.</p>
+</div>
+{% endblock %}

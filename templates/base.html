@@ -15,8 +15,10 @@
 <body>
   <a class="skip" href="#main">Skip to content</a>
   {% if private_issue_id is defined %}<div class="private-bar">Private reader proof · not published<a href="/issues/{{ private_issue_id }}">Review and approve →</a></div>{% endif %}
+  {% if private_preview|default(false) %}<div class="private-bar">Private page preview · not published<a href="/preview">Back to current issue →</a></div>{% endif %}
+  {% set internal_preview = private_issue_id is defined or private_preview|default(false) %}
   <div class="shell">
-    <header class="masthead"><a class="brand" href="{% if private_issue_id is defined %}/preview{% else %}/{% endif %}">{{ name }}</a><p class="tagline">{{ tagline }}</p><nav class="nav" aria-label="Main navigation"><a href="{% if private_issue_id is defined %}/preview{% else %}/{% endif %}">Latest</a><a href="{% if private_issue_id is defined %}{{ base_url }}{% endif %}/archive/">Archive</a><a href="{% if private_issue_id is defined %}{{ base_url }}{% endif %}/about/">About</a><a href="{% if private_issue_id is defined %}{{ base_url }}{% endif %}/feed.xml">RSS</a></nav></header>
+    <header class="masthead"><a class="brand" href="{% if internal_preview %}/preview{% else %}/{% endif %}">{{ name }}</a><p class="tagline">{{ tagline }}</p><nav class="nav" aria-label="Main navigation"><a href="{% if internal_preview %}/preview{% else %}/{% endif %}">Latest</a><a href="{% if internal_preview %}{{ base_url }}{% endif %}/archive/">Archive</a><a href="/about/">About</a><a href="{% if internal_preview %}{{ base_url }}{% endif %}/feed.xml">RSS</a></nav></header>
     <main id="main">{% block content %}{% endblock %}</main>
     <footer><span>Outside the Headlines · Insights from the long tail.</span><span>Original editorial content © {{ year|default(2026) }}. <a href="/about/#sources">Sources &amp; corrections</a></span></footer>
   </div>
