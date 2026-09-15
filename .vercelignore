@@ -1,0 +1,22 @@
+# Only publication sources are deployable; never upload local environments or proofs.
+*
+!.python-version
+!CONTENT_RIGHTS.md
+!LICENSE
+!README.md
+!build.py
+!pyproject.toml
+!requirements.txt
+!site.json
+!vercel.json
+!assets/
+!assets/**
+!outside_headlines/
+!outside_headlines/*.py
+!templates/
+!templates/*.html
+!tests/
+!tests/test_publication.py
+!releases/
+!releases/*.json
+!releases/.gitkeep
