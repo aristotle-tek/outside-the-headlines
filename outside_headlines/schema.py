@@ -25,6 +25,8 @@ def public_url(value: str) -> str:
         raise ValueError("Unsafe URL target")
     if ":" in host or "." not in host or host.endswith((".localhost", ".local", ".internal", ".example", ".test", ".invalid")):
         raise ValueError("Unsafe or illustrative URL target")
+    if any(host == reserved or host.endswith("." + reserved) for reserved in ("example.com", "example.org", "example.net")):
+        raise ValueError("Illustrative domains cannot support a public release")
     try:
         address = ipaddress.ip_address(host)
     except ValueError:
