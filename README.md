@@ -62,6 +62,8 @@ Production hostname: [outside-the-headlines.vercel.app](https://outside-the-head
 
 The approved first edition is included as an immutable release input. The official
 Vercel Git connection selects this publication repository, not the private newsroom.
+The first release was deployed automatically from Git commit `e031361` on
+15 September 2026. Its public issue page, archive and RSS were verified over HTTPS.
 If the connection is removed, install the official
 [Vercel GitHub app](https://github.com/apps/vercel/installations/new) with **only**
 this repository selected, then reconnect from this checkout:
