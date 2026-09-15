@@ -30,8 +30,9 @@ Only `dist/` is served. The site has no runtime API or application tracking.
 4. Build this checkout and inspect its HTML, sources, currency annotations and RSS.
 5. Explicitly commit the approved release inputs and push to `main`.
 
-Vercel’s native Git integration deploys `main` to production and other branches
-to previews. Previews are non-indexable, but this Git repository is public:
+Once the Vercel GitHub app is installed for this repository and connected, its
+native Git integration deploys `main` to production and other branches to previews.
+Previews are non-indexable, but this Git repository is public:
 never commit drafts, credentials, newsroom notes, or unapproved article copy.
 The export command never commits, pushes, deploys or sends email.
 
@@ -51,6 +52,7 @@ To undo a code commit, prefer `git revert COMMIT` followed by a push.
 
 Project and repository: `outside-the-headlines`. Vercel team: `smiling-quokka`.
 Framework preset: Other. Commands and output directory are in `vercel.json`.
+The build uses an isolated virtual environment, not Vercel’s managed system Python.
 No domain purchase is part of this setup. Email and subscriber storage are deferred;
 RSS is available immediately. A future email service can use listmonk plus SMTP.
 
