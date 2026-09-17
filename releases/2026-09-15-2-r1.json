@@ -1,0 +1,1331 @@
+{
+  "schema_version": 1,
+  "edition_date": "2026-09-15",
+  "issue_number": 2,
+  "published_at": "2026-09-17T14:58:39.724185Z",
+  "revision_number": 1,
+  "content_hash": "d03dfe8873941b5f28e94562031b9285c54adf78a1270f31120d92821997060f",
+  "title": "AI and the Burden of Proof",
+  "opener": "Fake supporters, synthetic endorsements and the rules taking shape around generative AI.",
+  "units": [
+    {
+      "type": "dispatch",
+      "headline": "One operator, dozens of apparent Kenyan supporters",
+      "countries": [
+        "Kenya"
+      ],
+      "topics": [
+        "political influence"
+      ],
+      "thesis": "",
+      "summary": "An unidentified Kenyan operator used Claude to produce batches of 50 posts posing as ordinary people's political opinions, according to Anthropic's September threat report. Some praised energy minister Opiyo Wandayi for halting a planned electricity-tariff increase. Others portrayed the opposition as divided. Anthropic found no evidence of government involvement and assessed the operation as having failed to reach or influence real users. The report covers activity disrupted between December 2025 and August 2026.",
+      "perspective": "A campaign can impersonate a crowd by giving one message dozens of apparently independent voices. This operator used the same approach for commercial marketing. The intended deception lay in who appeared to be speaking, rather than in any new political argument.",
+      "analogy_weakness": "",
+      "counterexample": "",
+      "members": [
+        {
+          "proposition": "Anthropic reported disrupting a Kenyan operator generating batches of apparently independent political commentary with Claude.",
+          "countries": [
+            "Kenya"
+          ],
+          "role": "primary",
+          "contribution": "",
+          "limitation": "",
+          "follow_up_reason": ""
+        }
+      ],
+      "claims": [
+        {
+          "text": "One operator, dozens of apparent Kenyan supporters",
+          "evidence": [
+            {
+              "source_url": "https://itweb.africa/article/anthropic-flags-kenya-ai-influence-operation/kLgB1MezZe6q59N4",
+              "passage": "Lead and description of the 50-post batches",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "An unidentified Kenyan operator used Claude to produce batches of 50 posts posing as ordinary people's political opinions, according to Anthropic's September threat report.",
+          "evidence": [
+            {
+              "source_url": "https://itweb.africa/article/anthropic-flags-kenya-ai-influence-operation/kLgB1MezZe6q59N4",
+              "passage": "Description of 50-post requests, Wandayi messages and opposition narratives",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Some praised energy minister Opiyo Wandayi for halting a planned electricity-tariff increase.",
+          "evidence": [
+            {
+              "source_url": "https://itweb.africa/article/anthropic-flags-kenya-ai-influence-operation/kLgB1MezZe6q59N4",
+              "passage": "Description of 50-post requests, Wandayi messages and opposition narratives",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Others portrayed the opposition as divided.",
+          "evidence": [
+            {
+              "source_url": "https://itweb.africa/article/anthropic-flags-kenya-ai-influence-operation/kLgB1MezZe6q59N4",
+              "passage": "Description of 50-post requests, Wandayi messages and opposition narratives",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Anthropic found no evidence of government involvement and assessed the operation as having failed to reach or influence real users.",
+          "evidence": [
+            {
+              "source_url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+              "passage": "Case GTG-54004: actor attribution, attack lifecycle and impact assessment; report introduction",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "The report covers activity disrupted between December 2025 and August 2026.",
+          "evidence": [
+            {
+              "source_url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+              "passage": "Case GTG-54004: actor attribution, attack lifecycle and impact assessment; report introduction",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "A campaign can impersonate a crowd by giving one message dozens of apparently independent voices.",
+          "evidence": [
+            {
+              "source_url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+              "passage": "Case GTG-54004: pre-written narratives, organic-commentary instructions and SHANKI/ElkinsMarketer workflow",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "This operator used the same approach for commercial marketing.",
+          "evidence": [
+            {
+              "source_url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+              "passage": "Case GTG-54004: pre-written narratives, organic-commentary instructions and SHANKI/ElkinsMarketer workflow",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "The intended deception lay in who appeared to be speaking, rather than in any new political argument.",
+          "evidence": [
+            {
+              "source_url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+              "passage": "Case GTG-54004: pre-written narratives, organic-commentary instructions and SHANKI/ElkinsMarketer workflow",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        }
+      ],
+      "sources": [
+        {
+          "name": "ITWeb Africa",
+          "title": "Anthropic flags Kenya AI influence operation",
+          "author": "Nixon Kanali",
+          "published_date": "2026-09-11",
+          "url": "https://itweb.africa/article/anthropic-flags-kenya-ai-influence-operation/kLgB1MezZe6q59N4",
+          "display": "reporting"
+        },
+        {
+          "name": "Anthropic",
+          "title": "Detecting and countering misuse of AI: September 2026",
+          "author": "Anthropic Threat Intelligence",
+          "published_date": "2026-09-10",
+          "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+          "display": "evidence_only"
+        }
+      ],
+      "currencies": []
+    },
+    {
+      "type": "dispatch",
+      "headline": "Prosecutors want to use a defendant's ChatGPT questions against him",
+      "countries": [
+        "Australia"
+      ],
+      "topics": [
+        "criminal evidence"
+      ],
+      "thesis": "",
+      "summary": "Christopher John Duff has pleaded not guilty to four restricted-data charges in New South Wales. Prosecutors allege he used AI to write a scraper and accessed 8,769 restricted court documents. At a hearing reported on 10 September, they said they intended to use his later ChatGPT questions about whether the access was illegal. His lawyer, Daniel McMahon, argues that asking afterwards whether the access was illegal does not prove Duff knew it was unauthorised when he accessed the documents. The hearing was adjourned; the report describes no final ruling on the conversations' admissibility.",
+      "perspective": "Asking a chatbot for help after a legal problem may create a record for the opposing side. Prosecutors want to use Duff's questions as evidence of what he knew. The defence's response shows why a question's timing matters as much as its wording.",
+      "analogy_weakness": "",
+      "counterexample": "",
+      "members": [
+        {
+          "proposition": "Prosecutors in Christopher Duff's contested restricted-data case seek to use his later ChatGPT questions as evidence.",
+          "countries": [
+            "Australia"
+          ],
+          "role": "primary",
+          "contribution": "",
+          "limitation": "",
+          "follow_up_reason": ""
+        }
+      ],
+      "claims": [
+        {
+          "text": "Prosecutors want to use a defendant's ChatGPT questions against him",
+          "evidence": [
+            {
+              "source_url": "https://www.abc.net.au/news/2026-09-10/christopher-duff-to-stand-trial-over-nsw-ai-court-data-breach/107135032",
+              "passage": "Section 'AI evidence' and the contested timing of Duff's legal questions",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Christopher John Duff has pleaded not guilty to four restricted-data charges in New South Wales.",
+          "evidence": [
+            {
+              "source_url": "https://www.abc.net.au/news/2026-09-10/christopher-duff-to-stand-trial-over-nsw-ai-court-data-breach/107135032",
+              "passage": "Opening charges, alleged document access and prosecution account of the ChatGPT exchanges",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Prosecutors allege he used AI to write a scraper and accessed 8,769 restricted court documents.",
+          "evidence": [
+            {
+              "source_url": "https://www.abc.net.au/news/2026-09-10/christopher-duff-to-stand-trial-over-nsw-ai-court-data-breach/107135032",
+              "passage": "Opening charges, alleged document access and prosecution account of the ChatGPT exchanges",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "At a hearing reported on 10 September, they said they intended to use his later ChatGPT questions about whether the access was illegal.",
+          "evidence": [
+            {
+              "source_url": "https://www.abc.net.au/news/2026-09-10/christopher-duff-to-stand-trial-over-nsw-ai-court-data-breach/107135032",
+              "passage": "Opening charges, alleged document access and prosecution account of the ChatGPT exchanges",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "His lawyer, Daniel McMahon, argues that asking afterwards whether the access was illegal does not prove Duff knew it was unauthorised when he accessed the documents.",
+          "evidence": [
+            {
+              "source_url": "https://www.abc.net.au/news/2026-09-10/christopher-duff-to-stand-trial-over-nsw-ai-court-data-breach/107135032",
+              "passage": "McMahon's actual-knowledge argument and concluding adjournment",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "The hearing was adjourned; the report describes no final ruling on the conversations' admissibility.",
+          "evidence": [
+            {
+              "source_url": "https://www.abc.net.au/news/2026-09-10/christopher-duff-to-stand-trial-over-nsw-ai-court-data-breach/107135032",
+              "passage": "McMahon's actual-knowledge argument and concluding adjournment",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Asking a chatbot for help after a legal problem may create a record for the opposing side.",
+          "evidence": [
+            {
+              "source_url": "https://www.abc.net.au/news/2026-09-10/christopher-duff-to-stand-trial-over-nsw-ai-court-data-breach/107135032",
+              "passage": "Prosecution's proposed use of the chat record and defence's distinction between later realisation and knowledge at access",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Prosecutors want to use Duff's questions as evidence of what he knew.",
+          "evidence": [
+            {
+              "source_url": "https://www.abc.net.au/news/2026-09-10/christopher-duff-to-stand-trial-over-nsw-ai-court-data-breach/107135032",
+              "passage": "Prosecution's proposed use of the chat record and defence's distinction between later realisation and knowledge at access",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "The defence's response shows why a question's timing matters as much as its wording.",
+          "evidence": [
+            {
+              "source_url": "https://www.abc.net.au/news/2026-09-10/christopher-duff-to-stand-trial-over-nsw-ai-court-data-breach/107135032",
+              "passage": "Prosecution's proposed use of the chat record and defence's distinction between later realisation and knowledge at access",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        }
+      ],
+      "sources": [
+        {
+          "name": "ABC News",
+          "title": "Prosecutors allege man used AI to 'scrape' court website, then asked ChatGPT for legal help",
+          "author": "Jamie McKinnell",
+          "published_date": "2026-09-10",
+          "url": "https://www.abc.net.au/news/2026-09-10/christopher-duff-to-stand-trial-over-nsw-ai-court-data-breach/107135032",
+          "display": "reporting"
+        }
+      ],
+      "currencies": []
+    },
+    {
+      "type": "dispatch",
+      "headline": "Irish witnesses must declare that AI has not rewritten their evidence",
+      "countries": [
+        "Ireland"
+      ],
+      "topics": [
+        "court procedure"
+      ],
+      "thesis": "",
+      "summary": "A generative-AI practice direction for Ireland's High Court took effect on 1 September. It does not ban AI-assisted legal drafting. Witness statements and affidavits, however, must open with a declaration that AI has not generated their substantive content, unless the court directs otherwise. The declaration covers rephrasing as well as strengthening, diluting or embellishing the account. Formatting and spelling checks are permitted. The court wants evidence to reflect the witness's personal recollection.",
+      "perspective": "Polishing a witness's language can also polish away hesitation or change the strength of a recollection. The Irish rule treats that risk as part of the evidence problem, even when AI invents no event. In testimony, an awkward account may carry information that a smoother version loses.",
+      "analogy_weakness": "",
+      "counterexample": "",
+      "members": [
+        {
+          "proposition": "Ireland's High Court practice direction requires witness declarations that generative AI has not generated or substantively rephrased their evidence, unless the court directs otherwise.",
+          "countries": [
+            "Ireland"
+          ],
+          "role": "primary",
+          "contribution": "",
+          "limitation": "",
+          "follow_up_reason": ""
+        }
+      ],
+      "claims": [
+        {
+          "text": "Irish witnesses must declare that AI has not rewritten their evidence",
+          "evidence": [
+            {
+              "source_url": "https://www.courts.ie/practice-directions/full-practice-direction?url=practice-direction-on-the-responsible-use-of-generative-artificial-intelligence-in-court-documents",
+              "passage": "HC142 paragraphs 25-28: witness statements and affidavits",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "A generative-AI practice direction for Ireland's High Court took effect on 1 September.",
+          "evidence": [
+            {
+              "source_url": "https://www.courts.ie/practice-directions/full-practice-direction?url=practice-direction-on-the-responsible-use-of-generative-artificial-intelligence-in-court-documents",
+              "passage": "HC142 paragraphs 1-3, 22-28; effective-date notice",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "It does not ban AI-assisted legal drafting.",
+          "evidence": [
+            {
+              "source_url": "https://www.courts.ie/practice-directions/full-practice-direction?url=practice-direction-on-the-responsible-use-of-generative-artificial-intelligence-in-court-documents",
+              "passage": "HC142 paragraphs 1-3, 22-28; effective-date notice",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Witness statements and affidavits, however, must open with a declaration that AI has not generated their substantive content, unless the court directs otherwise.",
+          "evidence": [
+            {
+              "source_url": "https://www.courts.ie/practice-directions/full-practice-direction?url=practice-direction-on-the-responsible-use-of-generative-artificial-intelligence-in-court-documents",
+              "passage": "HC142 paragraphs 1-3, 22-28; effective-date notice",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "The declaration covers rephrasing as well as strengthening, diluting or embellishing the account.",
+          "evidence": [
+            {
+              "source_url": "https://www.courts.ie/practice-directions/full-practice-direction?url=practice-direction-on-the-responsible-use-of-generative-artificial-intelligence-in-court-documents",
+              "passage": "HC142 paragraphs 25-28, including ancillary-use exception",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Formatting and spelling checks are permitted.",
+          "evidence": [
+            {
+              "source_url": "https://www.courts.ie/practice-directions/full-practice-direction?url=practice-direction-on-the-responsible-use-of-generative-artificial-intelligence-in-court-documents",
+              "passage": "HC142 paragraphs 25-28, including ancillary-use exception",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "The court wants evidence to reflect the witness's personal recollection.",
+          "evidence": [
+            {
+              "source_url": "https://www.courts.ie/practice-directions/full-practice-direction?url=practice-direction-on-the-responsible-use-of-generative-artificial-intelligence-in-court-documents",
+              "passage": "HC142 paragraphs 25-28, including ancillary-use exception",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Polishing a witness's language can also polish away hesitation or change the strength of a recollection.",
+          "evidence": [
+            {
+              "source_url": "https://www.courts.ie/practice-directions/full-practice-direction?url=practice-direction-on-the-responsible-use-of-generative-artificial-intelligence-in-court-documents",
+              "passage": "HC142 paragraphs 25-28: personal recollection and prohibition on substantive rephrasing",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "The Irish rule treats that risk as part of the evidence problem, even when AI invents no event.",
+          "evidence": [
+            {
+              "source_url": "https://www.courts.ie/practice-directions/full-practice-direction?url=practice-direction-on-the-responsible-use-of-generative-artificial-intelligence-in-court-documents",
+              "passage": "HC142 paragraphs 25-28: personal recollection and prohibition on substantive rephrasing",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "In testimony, an awkward account may carry information that a smoother version loses.",
+          "evidence": [
+            {
+              "source_url": "https://www.courts.ie/practice-directions/full-practice-direction?url=practice-direction-on-the-responsible-use-of-generative-artificial-intelligence-in-court-documents",
+              "passage": "HC142 paragraphs 25-28: personal recollection and prohibition on substantive rephrasing",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        }
+      ],
+      "sources": [
+        {
+          "name": "Courts Service of Ireland",
+          "title": "Practice Direction on the Responsible Use of Generative Artificial Intelligence in Court Documents",
+          "author": "David Barniville, President of the High Court",
+          "published_date": "2026-07-29",
+          "url": "https://www.courts.ie/practice-directions/full-practice-direction?url=practice-direction-on-the-responsible-use-of-generative-artificial-intelligence-in-court-documents",
+          "display": "reporting"
+        }
+      ],
+      "currencies": []
+    },
+    {
+      "type": "dispatch",
+      "headline": "California sets rules for AI auditors, without requiring every system to be audited",
+      "countries": [
+        "United States"
+      ],
+      "topics": [
+        "AI oversight"
+      ],
+      "thesis": "",
+      "summary": "California signed two laws on 9 September governing AI auditors. SB813 calls for standards for designated independent verification organisations by January 2028, including competence and independence. The criteria must bar fees contingent on an assessment's result. The law expressly does not require AI developers or operators to obtain an audit. AB1405 requires a registry by January 2029 and, from then, bars unregistered providers from offering covered AI audits. Auditors must not review their own work. These are future requirements, not an audit system already operating.",
+      "perspective": "An audit offers little reassurance if its author is paid for a favourable answer or is checking their own work. California is setting rules for the reviewers without requiring audits across the board. Credibility will depend on who checks a system, as well as what they check.",
+      "analogy_weakness": "",
+      "counterexample": "",
+      "members": [
+        {
+          "proposition": "California signed SB813 and AB1405 to establish standards and registration for covered AI auditors without imposing a general duty to obtain an audit.",
+          "countries": [
+            "United States"
+          ],
+          "role": "primary",
+          "contribution": "",
+          "limitation": "",
+          "follow_up_reason": ""
+        }
+      ],
+      "claims": [
+        {
+          "text": "California sets rules for AI auditors, without requiring every system to be audited",
+          "evidence": [
+            {
+              "source_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB813",
+              "passage": "SB813 sections 8898.1 and 8898.4(a)(3)",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "California signed two laws on 9 September governing AI auditors.",
+          "evidence": [
+            {
+              "source_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB813",
+              "passage": "Chapter 179: sections 8898.1, 8898.4(a)(3); approval and filing dates",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "SB813 calls for standards for designated independent verification organisations by January 2028, including competence and independence.",
+          "evidence": [
+            {
+              "source_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB813",
+              "passage": "Chapter 179: sections 8898.1, 8898.4(a)(3); approval and filing dates",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "The criteria must bar fees contingent on an assessment's result.",
+          "evidence": [
+            {
+              "source_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB813",
+              "passage": "Chapter 179: sections 8898.1, 8898.4(a)(3); approval and filing dates",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "The law expressly does not require AI developers or operators to obtain an audit.",
+          "evidence": [
+            {
+              "source_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB813",
+              "passage": "Chapter 179: sections 8898.1, 8898.4(a)(3); approval and filing dates",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "AB1405 requires a registry by January 2029 and, from then, bars unregistered providers from offering covered AI audits.",
+          "evidence": [
+            {
+              "source_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1405",
+              "passage": "Chapter 178: registration deadline, covered AI audit definition and independence requirements",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Auditors must not review their own work.",
+          "evidence": [
+            {
+              "source_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1405",
+              "passage": "Chapter 178: registration deadline, covered AI audit definition and independence requirements",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "These are future requirements, not an audit system already operating.",
+          "evidence": [
+            {
+              "source_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1405",
+              "passage": "Chapter 178: registration deadline, covered AI audit definition and independence requirements",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "An audit offers little reassurance if its author is paid for a favourable answer or is checking their own work.",
+          "evidence": [
+            {
+              "source_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1405",
+              "passage": "AB1405 section 11549.83(f): independence and prohibition on reviewing one's own work",
+              "excerpt": "",
+              "excerpt_rights": ""
+            },
+            {
+              "source_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB813",
+              "passage": "SB813 sections 8898.1 and 8898.4: independence, contingent fees and no general audit obligation",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "California is setting rules for the reviewers without requiring audits across the board.",
+          "evidence": [
+            {
+              "source_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1405",
+              "passage": "AB1405 section 11549.83(f): independence and prohibition on reviewing one's own work",
+              "excerpt": "",
+              "excerpt_rights": ""
+            },
+            {
+              "source_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB813",
+              "passage": "SB813 sections 8898.1 and 8898.4: independence, contingent fees and no general audit obligation",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Credibility will depend on who checks a system, as well as what they check.",
+          "evidence": [
+            {
+              "source_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1405",
+              "passage": "AB1405 section 11549.83(f): independence and prohibition on reviewing one's own work",
+              "excerpt": "",
+              "excerpt_rights": ""
+            },
+            {
+              "source_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB813",
+              "passage": "SB813 sections 8898.1 and 8898.4: independence, contingent fees and no general audit obligation",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        }
+      ],
+      "sources": [
+        {
+          "name": "California Legislature",
+          "title": "AB-1405 Artificial intelligence: auditors: registration.",
+          "author": "Chapter 178, Statutes of 2026",
+          "published_date": "2026-09-09",
+          "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1405",
+          "display": "reporting"
+        },
+        {
+          "name": "California Legislature",
+          "title": "SB-813 Independent verification organizations.",
+          "author": "Chapter 179, Statutes of 2026",
+          "published_date": "2026-09-09",
+          "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB813",
+          "display": "reporting"
+        }
+      ],
+      "currencies": []
+    },
+    {
+      "type": "dispatch",
+      "headline": "A synthetic Bolsonaro endorsement falls outside Brazil's election-advertising ban",
+      "countries": [
+        "Brazil"
+      ],
+      "topics": [
+        "election regulation"
+      ],
+      "thesis": "",
+      "summary": "At the Liberal Party's national convention on 25 July, an AI recreation of Jair Bolsonaro's image and voice endorsed his son Flávio's presidential candidacy. A rival federation sought the video's removal and a fine. On 1 September, Brazil's Superior Electoral Court rejected the fine by four votes to three. The majority treated the message as internal party communication without an explicit request for votes. Broadcasting the convention online did not automatically turn it into electoral advertising. In a separate five-to-two vote, the court defined deepfakes and held that the prohibition applies when the content qualifies as electoral advertising.",
+      "perspective": "A synthetic endorsement can reach the public yet fall outside a ban on election deepfakes. Brazil's court treated this video as internal party communication. To enforce the ban, courts must classify the political message as well as identify the manipulated image.",
+      "analogy_weakness": "",
+      "counterexample": "",
+      "members": [
+        {
+          "proposition": "Brazil's electoral court rejected a fine for a synthetic Bolsonaro endorsement at a party convention while limiting its deepfake ban to electoral advertising.",
+          "countries": [
+            "Brazil"
+          ],
+          "role": "primary",
+          "contribution": "",
+          "limitation": "",
+          "follow_up_reason": ""
+        }
+      ],
+      "claims": [
+        {
+          "text": "A synthetic Bolsonaro endorsement falls outside Brazil's election-advertising ban",
+          "evidence": [
+            {
+              "source_url": "https://www.tse.jus.br/comunicacao/noticias/2026/Setembro/tse-fixa-tese-sobre-deepfake-e-delimita-regra-para-as-eleicoes-2026",
+              "passage": "Decision on representation 0601315-97.2026.6.00.0000; convention context and advertising classification",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "At the Liberal Party's national convention on 25 July, an AI recreation of Jair Bolsonaro's image and voice endorsed his son Flávio's presidential candidacy.",
+          "evidence": [
+            {
+              "source_url": "https://www.tse.jus.br/comunicacao/noticias/2026/Setembro/tse-fixa-tese-sobre-deepfake-e-delimita-regra-para-as-eleicoes-2026",
+              "passage": "Convention video, federation complaint and four-to-three rejection of the fine",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "A rival federation sought the video's removal and a fine.",
+          "evidence": [
+            {
+              "source_url": "https://www.tse.jus.br/comunicacao/noticias/2026/Setembro/tse-fixa-tese-sobre-deepfake-e-delimita-regra-para-as-eleicoes-2026",
+              "passage": "Convention video, federation complaint and four-to-three rejection of the fine",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "On 1 September, Brazil's Superior Electoral Court rejected the fine by four votes to three.",
+          "evidence": [
+            {
+              "source_url": "https://www.tse.jus.br/comunicacao/noticias/2026/Setembro/tse-fixa-tese-sobre-deepfake-e-delimita-regra-para-as-eleicoes-2026",
+              "passage": "Convention video, federation complaint and four-to-three rejection of the fine",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "The majority treated the message as internal party communication without an explicit request for votes.",
+          "evidence": [
+            {
+              "source_url": "https://www.tse.jus.br/comunicacao/noticias/2026/Setembro/tse-fixa-tese-sobre-deepfake-e-delimita-regra-para-as-eleicoes-2026",
+              "passage": "Rapporteur's reasoning and online transmission",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Broadcasting the convention online did not automatically turn it into electoral advertising.",
+          "evidence": [
+            {
+              "source_url": "https://www.tse.jus.br/comunicacao/noticias/2026/Setembro/tse-fixa-tese-sobre-deepfake-e-delimita-regra-para-as-eleicoes-2026",
+              "passage": "Rapporteur's reasoning and online transmission",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "In a separate five-to-two vote, the court defined deepfakes and held that the prohibition applies when the content qualifies as electoral advertising.",
+          "evidence": [
+            {
+              "source_url": "https://techregulationbr.lickslegal.com/publicacoes/brazil-digital-regulation-monitor-september-2026",
+              "passage": "Section 'The 2026 Elections Reinforce the Debate Over Artificial Intelligence and Disinformation', paragraphs on the September 1 decision",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "A synthetic endorsement can reach the public yet fall outside a ban on election deepfakes.",
+          "evidence": [
+            {
+              "source_url": "https://www.tse.jus.br/comunicacao/noticias/2026/Setembro/tse-fixa-tese-sobre-deepfake-e-delimita-regra-para-as-eleicoes-2026",
+              "passage": "Convention context, intended audience, absence of explicit vote request and scope of the article 9-C prohibition",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Brazil's court treated this video as internal party communication.",
+          "evidence": [
+            {
+              "source_url": "https://www.tse.jus.br/comunicacao/noticias/2026/Setembro/tse-fixa-tese-sobre-deepfake-e-delimita-regra-para-as-eleicoes-2026",
+              "passage": "Convention context, intended audience, absence of explicit vote request and scope of the article 9-C prohibition",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "To enforce the ban, courts must classify the political message as well as identify the manipulated image.",
+          "evidence": [
+            {
+              "source_url": "https://www.tse.jus.br/comunicacao/noticias/2026/Setembro/tse-fixa-tese-sobre-deepfake-e-delimita-regra-para-as-eleicoes-2026",
+              "passage": "Convention context, intended audience, absence of explicit vote request and scope of the article 9-C prohibition",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        }
+      ],
+      "sources": [
+        {
+          "name": "Licks Attorneys",
+          "title": "Brazil Digital Regulation Monitor | September 2026",
+          "author": "",
+          "published_date": "2026-09-11",
+          "url": "https://techregulationbr.lickslegal.com/publicacoes/brazil-digital-regulation-monitor-september-2026",
+          "display": "reporting"
+        },
+        {
+          "name": "Superior Electoral Court of Brazil",
+          "title": "TSE fixa tese sobre deepfake e delimita regra para as Eleições 2026",
+          "author": "TSE newsroom",
+          "published_date": "2026-09-01",
+          "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Setembro/tse-fixa-tese-sobre-deepfake-e-delimita-regra-para-as-eleicoes-2026",
+          "display": "evidence_only"
+        }
+      ],
+      "currencies": []
+    },
+    {
+      "type": "dispatch",
+      "headline": "US court protects in-home possession of some synthetic abuse images",
+      "countries": [
+        "United States"
+      ],
+      "topics": [
+        "constitutional limits"
+      ],
+      "thesis": "",
+      "summary": "On 25 August, a US appeals court upheld dismissal of a charge against Steven Anderegg for possessing obscene AI-generated depictions of child sexual abuse at home. Prosecutors conceded the images did not depict or link to an actual child. The appeal did not remove the separate production, distribution and transfer charges. Supreme Court precedents on private possession of obscenity and computer-generated images controlled the case, the Seventh Circuit held. Two judges asked for further Supreme Court guidance on AI. This was no general permission to create or circulate abuse imagery.",
+      "perspective": "AI can make a fictional image look like the record of a real crime. The Supreme Court's child-protection rationale, however, centred on actual victims. The appeals judges could question how that boundary works with today's technology, but could not rewrite binding precedent themselves.",
+      "analogy_weakness": "",
+      "counterexample": "",
+      "members": [
+        {
+          "proposition": "The Seventh Circuit affirmed dismissal of a single private-possession count involving AI-generated obscene images that prosecutors conceded depicted no actual child; other charges were unaffected.",
+          "countries": [
+            "United States"
+          ],
+          "role": "primary",
+          "contribution": "",
+          "limitation": "",
+          "follow_up_reason": ""
+        }
+      ],
+      "claims": [
+        {
+          "text": "US court protects in-home possession of some synthetic abuse images",
+          "evidence": [
+            {
+              "source_url": "https://law.justia.com/cases/federal/appellate-courts/ca7/25-1354/25-1354-2026-08-25.html",
+              "passage": "Opinion pages 1-2, 5 and 23-24: scope and holding",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "On 25 August, a US appeals court upheld dismissal of a charge against Steven Anderegg for possessing obscene AI-generated depictions of child sexual abuse at home.",
+          "evidence": [
+            {
+              "source_url": "https://law.justia.com/cases/federal/appellate-courts/ca7/25-1354/25-1354-2026-08-25.html",
+              "passage": "Opinion pages 1-5, footnote 2 and pages 16-17: allegations, government concession and remaining counts",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Prosecutors conceded the images did not depict or link to an actual child.",
+          "evidence": [
+            {
+              "source_url": "https://law.justia.com/cases/federal/appellate-courts/ca7/25-1354/25-1354-2026-08-25.html",
+              "passage": "Opinion pages 1-5, footnote 2 and pages 16-17: allegations, government concession and remaining counts",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "The appeal did not remove the separate production, distribution and transfer charges.",
+          "evidence": [
+            {
+              "source_url": "https://law.justia.com/cases/federal/appellate-courts/ca7/25-1354/25-1354-2026-08-25.html",
+              "passage": "Opinion pages 1-5, footnote 2 and pages 16-17: allegations, government concession and remaining counts",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Supreme Court precedents on private possession of obscenity and computer-generated images controlled the case, the Seventh Circuit held.",
+          "evidence": [
+            {
+              "source_url": "https://law.justia.com/cases/federal/appellate-courts/ca7/25-1354/25-1354-2026-08-25.html",
+              "passage": "Opinion pages 23-25 and Lee concurrence, joined by Kolar; narrow as-applied holding",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Two judges asked for further Supreme Court guidance on AI.",
+          "evidence": [
+            {
+              "source_url": "https://law.justia.com/cases/federal/appellate-courts/ca7/25-1354/25-1354-2026-08-25.html",
+              "passage": "Opinion pages 23-25 and Lee concurrence, joined by Kolar; narrow as-applied holding",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "This was no general permission to create or circulate abuse imagery.",
+          "evidence": [
+            {
+              "source_url": "https://law.justia.com/cases/federal/appellate-courts/ca7/25-1354/25-1354-2026-08-25.html",
+              "passage": "Opinion pages 23-25 and Lee concurrence, joined by Kolar; narrow as-applied holding",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "AI can make a fictional image look like the record of a real crime.",
+          "evidence": [
+            {
+              "source_url": "https://law.justia.com/cases/federal/appellate-courts/ca7/25-1354/25-1354-2026-08-25.html",
+              "passage": "Opinion pages 19-24: actual-child rationale, government's arguments and duty to follow precedent",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "The Supreme Court's child-protection rationale, however, centred on actual victims.",
+          "evidence": [
+            {
+              "source_url": "https://law.justia.com/cases/federal/appellate-courts/ca7/25-1354/25-1354-2026-08-25.html",
+              "passage": "Opinion pages 19-24: actual-child rationale, government's arguments and duty to follow precedent",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "The appeals judges could question how that boundary works with today's technology, but could not rewrite binding precedent themselves.",
+          "evidence": [
+            {
+              "source_url": "https://law.justia.com/cases/federal/appellate-courts/ca7/25-1354/25-1354-2026-08-25.html",
+              "passage": "Opinion pages 19-24: actual-child rationale, government's arguments and duty to follow precedent",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        }
+      ],
+      "sources": [
+        {
+          "name": "US Court of Appeals for the Seventh Circuit, via Justia",
+          "title": "USA v Anderegg, No. 25-1354 (7th Cir. 2026)",
+          "author": "John Z. Lee; panel: Lee, Pryor and Kolar",
+          "published_date": "2026-08-25",
+          "url": "https://law.justia.com/cases/federal/appellate-courts/ca7/25-1354/25-1354-2026-08-25.html",
+          "display": "reporting"
+        }
+      ],
+      "currencies": []
+    },
+    {
+      "type": "dispatch",
+      "headline": "Debian keeps the human contributor responsible for AI-written work",
+      "countries": [
+        "Global"
+      ],
+      "topics": [
+        "software governance"
+      ],
+      "thesis": "",
+      "summary": "Debian developers adopted a responsible-use policy for generative AI, announced on 30 August. AI-assisted contributions must meet the same standards of correctness, maintainability and legal compliance as other work. Contributors must understand, review and test their submissions, rather than upload them blindly. Disclosure of substantial AI assistance is encouraged, not mandatory. Automated mass bug reports or patches call for prior discussion and consensus. Contributors must not send non-public sensitive information to third-party models without explicit approval.",
+      "perspective": "Generating a patch does not supply someone who can explain it, repair it or maintain it. Debian keeps that responsibility with the contributor and asks for agreement before automation creates work for the wider project. Its policy addresses the burden on recipients, not just the convenience of producing submissions.",
+      "analogy_weakness": "",
+      "counterexample": "",
+      "members": [
+        {
+          "proposition": "Debian developers adopted a responsible generative-AI policy requiring contributors to understand, review and test submissions while encouraging, not requiring, disclosure.",
+          "countries": [
+            "Global"
+          ],
+          "role": "primary",
+          "contribution": "",
+          "limitation": "",
+          "follow_up_reason": ""
+        }
+      ],
+      "claims": [
+        {
+          "text": "Debian keeps the human contributor responsible for AI-written work",
+          "evidence": [
+            {
+              "source_url": "https://www.debian.org/vote/2026/vote_002",
+              "passage": "Winning Proposal E, option 5: responsible use of generative AI tools",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Debian developers adopted a responsible-use policy for generative AI, announced on 30 August.",
+          "evidence": [
+            {
+              "source_url": "https://www.debian.org/vote/2026/vote_002",
+              "passage": "Winning Proposal E: equal standards, contributor review and voting timetable",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "AI-assisted contributions must meet the same standards of correctness, maintainability and legal compliance as other work.",
+          "evidence": [
+            {
+              "source_url": "https://www.debian.org/vote/2026/vote_002",
+              "passage": "Winning Proposal E: equal standards, contributor review and voting timetable",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Contributors must understand, review and test their submissions, rather than upload them blindly.",
+          "evidence": [
+            {
+              "source_url": "https://www.debian.org/vote/2026/vote_002",
+              "passage": "Winning Proposal E: equal standards, contributor review and voting timetable",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Disclosure of substantial AI assistance is encouraged, not mandatory.",
+          "evidence": [
+            {
+              "source_url": "https://www.debian.org/vote/2026/vote_002",
+              "passage": "Winning Proposal E: disclosure, community-wide automation and sensitive-information clauses",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Automated mass bug reports or patches call for prior discussion and consensus.",
+          "evidence": [
+            {
+              "source_url": "https://www.debian.org/vote/2026/vote_002",
+              "passage": "Winning Proposal E: disclosure, community-wide automation and sensitive-information clauses",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Contributors must not send non-public sensitive information to third-party models without explicit approval.",
+          "evidence": [
+            {
+              "source_url": "https://www.debian.org/vote/2026/vote_002",
+              "passage": "Winning Proposal E: disclosure, community-wide automation and sensitive-information clauses",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Generating a patch does not supply someone who can explain it, repair it or maintain it.",
+          "evidence": [
+            {
+              "source_url": "https://www.debian.org/vote/2026/vote_002",
+              "passage": "Winning Proposal E: contributor understanding and maintainability; consensus and oversight for mass automation",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Debian keeps that responsibility with the contributor and asks for agreement before automation creates work for the wider project.",
+          "evidence": [
+            {
+              "source_url": "https://www.debian.org/vote/2026/vote_002",
+              "passage": "Winning Proposal E: contributor understanding and maintainability; consensus and oversight for mass automation",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Its policy addresses the burden on recipients, not just the convenience of producing submissions.",
+          "evidence": [
+            {
+              "source_url": "https://www.debian.org/vote/2026/vote_002",
+              "passage": "Winning Proposal E: contributor understanding and maintainability; consensus and oversight for mass automation",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        }
+      ],
+      "sources": [
+        {
+          "name": "Debian",
+          "title": "General Resolution: LLM usage in Debian",
+          "author": "Debian project",
+          "published_date": "2026-08-30",
+          "url": "https://www.debian.org/vote/2026/vote_002",
+          "display": "reporting"
+        }
+      ],
+      "currencies": []
+    },
+    {
+      "type": "dispatch",
+      "headline": "The FDA considers testing medical AI in clinics before its answers affect care",
+      "countries": [
+        "United States"
+      ],
+      "topics": [
+        "medical-device regulation"
+      ],
+      "thesis": "",
+      "summary": "On 18 August, the US Food and Drug Administration released a discussion paper asking how to assess generative-AI medical devices. It considers an approach inspired by the assessment of human clinicians: competency tests alongside evidence of clinical performance. The finished device would be evaluated in its intended configuration, not a foundation model by itself. One possible method is shadow deployment: the device processes real clinical inputs, but its outputs are recorded without being shown to clinicians or patients or affecting care. Comments are due by 19 October. The paper is exploratory, not guidance or a new regulatory requirement.",
+      "perspective": "Good benchmark answers do not establish that a device will work well with patients, staff and a clinic's routines. Shadow deployment would let investigators compare its answers with actual decisions before anyone relies on them. It offers a way to learn from real use without first giving the tool a role in care.",
+      "analogy_weakness": "",
+      "counterexample": "",
+      "members": [
+        {
+          "proposition": "The FDA requested feedback on evaluating generative-AI medical devices through competency benchmarking and clinical confirmation, including possible shadow deployments.",
+          "countries": [
+            "United States"
+          ],
+          "role": "primary",
+          "contribution": "",
+          "limitation": "",
+          "follow_up_reason": ""
+        }
+      ],
+      "claims": [
+        {
+          "text": "The FDA considers testing medical AI in clinics before its answers affect care",
+          "evidence": [
+            {
+              "source_url": "https://www.fda.gov/media/194242/download",
+              "passage": "Discussion paper printed pages 10-11 and 14-15: competency approach and shadow deployment",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "On 18 August, the US Food and Drug Administration released a discussion paper asking how to assess generative-AI medical devices.",
+          "evidence": [
+            {
+              "source_url": "https://www.fda.gov/news-events/press-announcements/fda-seeks-public-feedback-inform-regulatory-approach-generative-ai-enabled-medical-devices",
+              "passage": "Dated announcement of the discussion paper and request for public feedback",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "It considers an approach inspired by the assessment of human clinicians: competency tests alongside evidence of clinical performance.",
+          "evidence": [
+            {
+              "source_url": "https://www.fda.gov/media/194242/download",
+              "passage": "Discussion paper printed pages 10-11, section V and V.A",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "The finished device would be evaluated in its intended configuration, not a foundation model by itself.",
+          "evidence": [
+            {
+              "source_url": "https://www.fda.gov/media/194242/download",
+              "passage": "Discussion paper printed pages 10-11, section V and V.A",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "One possible method is shadow deployment: the device processes real clinical inputs, but its outputs are recorded without being shown to clinicians or patients or affecting care.",
+          "evidence": [
+            {
+              "source_url": "https://www.fda.gov/media/194242/download",
+              "passage": "Discussion paper printed page 15, shadow-deployment bullet",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Comments are due by 19 October.",
+          "evidence": [
+            {
+              "source_url": "https://www.fda.gov/news-events/press-announcements/fda-seeks-public-feedback-inform-regulatory-approach-generative-ai-enabled-medical-devices",
+              "passage": "Public-comment deadline for docket FDA-2026-N-7874",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "The paper is exploratory, not guidance or a new regulatory requirement.",
+          "evidence": [
+            {
+              "source_url": "https://www.fda.gov/media/194242/download",
+              "passage": "Discussion paper printed page 1 disclaimer",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Good benchmark answers do not establish that a device will work well with patients, staff and a clinic's routines.",
+          "evidence": [
+            {
+              "source_url": "https://www.fda.gov/media/194242/download",
+              "passage": "Discussion paper printed pages 14-15: limits of benchmarking, clinical workflows and shadow deployment",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "Shadow deployment would let investigators compare its answers with actual decisions before anyone relies on them.",
+          "evidence": [
+            {
+              "source_url": "https://www.fda.gov/media/194242/download",
+              "passage": "Discussion paper printed pages 14-15: limits of benchmarking, clinical workflows and shadow deployment",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        },
+        {
+          "text": "It offers a way to learn from real use without first giving the tool a role in care.",
+          "evidence": [
+            {
+              "source_url": "https://www.fda.gov/media/194242/download",
+              "passage": "Discussion paper printed pages 14-15: limits of benchmarking, clinical workflows and shadow deployment",
+              "excerpt": "",
+              "excerpt_rights": ""
+            }
+          ],
+          "currency_indexes": []
+        }
+      ],
+      "sources": [
+        {
+          "name": "US Food and Drug Administration",
+          "title": "Considerations for the Regulation of Generative AI-Enabled Medical Devices: Discussion Paper",
+          "author": "Center for Devices and Radiological Health",
+          "published_date": "2026-08-18",
+          "url": "https://www.fda.gov/media/194242/download",
+          "display": "evidence_only"
+        },
+        {
+          "name": "US Food and Drug Administration",
+          "title": "FDA Seeks Public Feedback to Inform Regulatory Approach for Generative AI-Enabled Medical Devices",
+          "author": "FDA",
+          "published_date": "2026-08-18",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-seeks-public-feedback-inform-regulatory-approach-generative-ai-enabled-medical-devices",
+          "display": "reporting"
+        }
+      ],
+      "currencies": []
+    }
+  ],
+  "corrections": []
+}
