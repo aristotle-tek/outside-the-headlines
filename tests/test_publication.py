@@ -180,6 +180,22 @@ def test_empty_site_and_deterministic_reruns(tmp_path):
     assert (root / "dist/archive/index.html").exists()
 
 
+def test_homepage_features_latest_and_two_previous_editions(tmp_path):
+    root = checkout(tmp_path)
+    for number in range(1, 5):
+        write(root, test_input(number=number))
+    build(root)
+    html = (root / "dist/index.html").read_text()
+    latest = "/issues/2026-09-14-4/"
+    previous = ["/issues/2026-09-14-3/", "/issues/2026-09-14-2/"]
+    oldest = "/issues/2026-09-14-1/"
+    assert "The latest edition" in html and "Previous editions" in html
+    assert all(path in html for path in [latest, *previous])
+    assert oldest not in html
+    assert html.index(latest) < html.index(previous[0]) < html.index(previous[1])
+    assert 'href="/archive/"' in html
+
+
 def test_preview_is_not_indexable(tmp_path):
     root = checkout(tmp_path)
     build(root, preview=True)
